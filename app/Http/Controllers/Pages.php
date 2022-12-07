@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class pages extends Controller
+class Pages extends Controller
 {
     function pricing()
     {
