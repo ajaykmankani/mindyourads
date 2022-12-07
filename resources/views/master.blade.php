@@ -210,7 +210,7 @@
                                 <div class="col-auto">
                                     <nav class="main-menu d-none d-lg-inline-block">
                                         <ul>
-                                            <li class="menu-item-has-children"><a href="/">Home</a>
+                                            <li class="menu-item-has-children"><a href="/">Main</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="/">Web Agency</a></li>
                                                     <li><a href="index-3">Startup Agency</a></li>
