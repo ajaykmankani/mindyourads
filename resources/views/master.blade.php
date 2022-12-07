@@ -110,7 +110,7 @@
             <div class="mobile-logo"><a href="/"><img src="assets/img/logo2.png" alt="Dalky"></a></div>
             <div class="as-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children"><a href="/">Home</a>
+                    <li class="menu-item-has-children"><a href="/">Main</a>
                         <ul class="sub-menu">
                             <li><a href="/">Web Agency</a></li>
                             <li><a href="index-3">Startup Agency</a></li>
