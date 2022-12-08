@@ -1,14 +1,14 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-<!-- Mirrored from angfuzsoft.com/html/dalky/demo/index by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Dec 2022 02:18:27 GMT -->
+<!-- Mirrored from angfuzsoft.com/html/mindyourads/demo/index by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Dec 2022 02:18:27 GMT -->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dalky - Digital Agency HTML Template - Home One</title>
+    <title>Mind Your Ads - Digital Agency HTML Template - Home One</title>
     <meta name="author" content="Angfuzsoft">
-    <meta name="description" content="Dalky - Digital Agency HTML Template">
-    <meta name="keywords" content="Dalky - Digital Agency HTML Template">
+    <meta name="description" content="Mind Your Ads - Digital Agency HTML Template">
+    <meta name="keywords" content="Mind Your Ads - Digital Agency HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
@@ -49,7 +49,8 @@
                     class="far fa-times"></i></button>
             <div class="widget footer-widget">
                 <div class="as-widget-about">
-                    <div class="about-logo"><a href="/"><img src="assets/img/logo-white.svg" alt="Dalky"></a>
+                    <div class="about-logo"><a href="/"><img src="assets/img/logo-white.svg"
+                                alt="Mind Your Ads"></a>
                     </div>
                     <p class="about-text">Quickly supply alternative strategic theme areas vis-a-vis B2C mindshare.
                         Objectively repurpose stand-alone synergy via user-centric architectures.</p>
@@ -107,7 +108,8 @@
     </div>
     <div class="as-menu-wrapper">
         <div class="as-menu-area text-center"><button class="as-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="/"><img src="assets/img/logo2.png" alt="Dalky"></a></div>
+            <div class="mobile-logo"><a href="/"><img src="assets/img/logo2.png" alt="Mind Your Ads"></a>
+            </div>
             <div class="as-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children"><a href="/">Main</a>
@@ -155,7 +157,7 @@
                 <div class="container">
                     <div class="row justify-content-center justify-content-lg-between align-items-center">
                         <div class="col-auto d-none d-lg-block">
-                            <p class="header-notice">Welcome to Dalky Digital & Creative Agency</p>
+                            <p class="header-notice">Welcome to Mind Your Ads Digital & Creative Agency</p>
                         </div>
                         <div class="col-auto">
                             <div class="header-social"><span class="social-title">Follow Us : </span><a
@@ -172,8 +174,8 @@
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo"><a href="/"><img src="assets/img/logo2.png"
-                                        alt="Dalky"></a></div>
+                            <div class="header-logo"><a href="/"><img src="assets/img/logo2.svg"
+                                        alt="Mind Your Ads"></a></div>
                         </div>
                         <div class="col-auto d-none d-lg-inline-block">
                             <div class="header-info-wrap">
@@ -185,7 +187,8 @@
                                 <div class="header-info">
                                     <div class="header-info_icon icon-btn"><i class="fa-solid fa-envelope"></i></div>
                                     <div class="media-body"><span class="header-info_text">Send Email</span> <a
-                                            class="header-info_link" href="mailto:info@dalky.com">info@dalky.com</a></div>
+                                            class="header-info_link"
+                                            href="mailto:{{ env('EMAIL') }}">{{ env('EMAIL') }}</a></div>
                                 </div>
                                 <div class="header-info">
                                     <div class="header-info_icon icon-btn"><i class="fa-solid fa-clock"></i></div>
@@ -262,11 +265,7 @@
         </header>
     @show
     <main>
-        @php
-            $email = env('EMAIL');
-            $company_name = ENV('APP_NAME');
-            
-        @endphp
+
         @section('main')
 
         @show
@@ -278,8 +277,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-3">
-                            <div class="footer-logo2"><a href="/"><img src="assets/img/logo2.png"
-                                        alt="Dalky"></a></div>
+                            <div class="footer-logo2"><a href="/"><img src="assets/img/logo2white.png"
+                                        alt="Mind Your Ads"></a></div>
                         </div>
                         <div class="col-xl-9">
                             <div class="newsletter-wrap">
@@ -309,8 +308,8 @@
                                     <p class="footer-info style2"><i class="fas fa-location-dot"></i> 18013 Northridge,
                                         CA 91325, United States</p>
                                     <p class="footer-info style2"><i class="fas fa-envelope"></i> <a
-                                            href="mailto:info.example@dalky.com"
-                                            class="info-box_link">info.example@dalky.com</a></p>
+                                            href="mailto:{{ env('EMAIL') }}"
+                                            class="info-box_link">{{ env('EMAIL') }}</a></p>
                                     <p class="footer-info style2"><i class="fas fa-phone"></i> <a href="tel:+10987654321"
                                             class="info-box_link">+(1) 098 765 4321</a></p>
                                 </div>
