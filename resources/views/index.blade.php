@@ -166,10 +166,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="content-part">
-                        <h1>What Is SEO?</h1>
-                        <p>SEO stands for “search engine optimization.” It is the process of getting traffic from the
-                            “free,” “organic,” “editorial” or “natural” search results on search engines.</p>
-                        <a class="ghost-btn" href="#">Start Free Trial</a>
+                        <h1>Why Work With Us?</h1>
+                        <p>We are a young and smart enterprise driven by the goal to provide 100% satisfaction to our
+                            clients. Energetic, sincere, confident and knowledgeable is how we like to describe ourselves.
+                            Our technical team has significant experience in designing, developing and managing projects.
+                        </p>
+                        <a class="ghost-btn" href="contact">know more</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
