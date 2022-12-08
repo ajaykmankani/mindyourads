@@ -6,11 +6,11 @@
             <div class="as-hero-slide">
                 <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_1.jpg"></div>
                 <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Welcome
-                            To Visit</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Dalky Creative &</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital <span
-                                class="gr-text">Agency</span></h1>
+                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Mind
+                            Your Ads</span>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local</h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital Marketing <br><span
+                                class="gr-text">Experts.</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
                             imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"
@@ -22,11 +22,11 @@
             <div class="as-hero-slide">
                 <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_2.jpg"></div>
                 <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft"
-                            data-ani-delay="0.0s">Welcome To Visit</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Dalky Websites &</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Creative <span
-                                class="gr-text">Agency</span></h1>
+                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Mind
+                            Your Ads</span>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local</h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital Marketing <br><span
+                                class="gr-text">Experts.</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
                             imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"
@@ -38,11 +38,11 @@
             <div class="as-hero-slide">
                 <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_3.jpg"></div>
                 <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">We
-                            Always Ready for</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Getting The Best</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital <span
-                                class="gr-text">Service</span></h1>
+                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Mind
+                            Your Ads</span>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local</h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital Marketing <br><span
+                                class="gr-text">Experts.</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
                             imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"

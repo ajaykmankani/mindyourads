@@ -6,9 +6,9 @@
                 <div class="container z-index-common">
                     <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft"
                             data-ani-delay="0.0s">Welcome To Visit</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Dalky Creative &</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital <span
-                                class="gr-text">Agency</span></h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local</h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital Marketing <span
+                                class="gr-text">Experts.</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
                             imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
                         <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service.html"
