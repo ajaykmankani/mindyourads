@@ -1,46 +1,47 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SEO Engine | Home One</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-    <!-- Main Menu CSS -->
-    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Font-awesome CSS-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Font-flat CSS-->
-    <link rel="stylesheet" href="assets/fonts/flaticon.css">
-    <!-- Owl Caousel CSS -->
-    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.theme.default.min.css">
-    <!-- nivo slider CSS -->
-    <link rel="stylesheet" href="assets/vendor/slider/css/nivo-slider.css" type="text/css" />
-    <link rel="stylesheet" href="assets/vendor/slider/css/preview.css" type="text/css" media="screen" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
 @section('header')
+    <!doctype html>
+    <html class="no-js" lang="en">
+
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SEO Engine | Home One</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Main Menu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Font-awesome CSS-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Font-flat CSS-->
+        <link rel="stylesheet" href="assets/fonts/flaticon.css">
+        <!-- Owl Caousel CSS -->
+        <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.theme.default.min.css">
+        <!-- nivo slider CSS -->
+        <link rel="stylesheet" href="assets/vendor/slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="assets/vendor/slider/css/preview.css" type="text/css" media="screen" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
 
     <body>
         <!--[if lt IE 8]>
-                                    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-                                <![endif]-->
+                                        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                                    <![endif]-->
         <!-- Add your site or application content here -->
         <div class="wraper">
             <header>
