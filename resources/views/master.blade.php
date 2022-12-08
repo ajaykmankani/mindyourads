@@ -2,7 +2,6 @@
 <html class="no-js" lang="en">
 
 
-<!-- Mirrored from radiustheme.com/demo/html/seoengine/seoengine/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Dec 2022 14:37:16 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -40,8 +39,8 @@
 
     <body>
         <!--[if lt IE 8]>
-                                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-                            <![endif]-->
+                                    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                                <![endif]-->
         <!-- Add your site or application content here -->
         <div class="wraper">
             <header>
@@ -51,7 +50,7 @@
                             <div class="row">
                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                     <div class="logo-area">
-                                        <a href="index"><img class="img-responsive" src="assets/img/logo.png"
+                                        <a href="/"><img class="img-responsive" src="assets/img/logo.png"
                                                 alt="logo"></a>
                                     </div>
                                 </div>
@@ -62,40 +61,34 @@
                                                 <li class="active"><a href="#">Home</a>
                                                     <ul class="mega-menu-dropdown2">
                                                         <li class="single-mega-menu">
-                                                            <a href="index">Home 1</a>
-                                                            <a href="index2">Home 2</a>
-                                                            <a href="index3">Home 3</a>
-                                                            <a href="index4">Home 4</a>
-                                                            <a href="index5">Home 5</a>
-                                                            <a href="index6">Home 6</a>
+                                                            <a href="/">Home 1</a>
+                                                            <a href="/">Home 2</a>
+                                                            <a href="/">Home 3</a>
+                                                            <a href="/">Home 4</a>
+                                                            <a href="/">Home 5</a>
+                                                            <a href="/">Home 6</a>
                                                         </li>
                                                         <li class="single-mega-menu">
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index"
-                                                                target="_blank">Home 1 (Onepage)</a>
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index2"
-                                                                target="_blank">Home 2 (Onepage)</a>
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index3"
-                                                                target="_blank">Home 3 (Onepage)</a>
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index4"
-                                                                target="_blank">Home 4 (Onepage)</a>
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index5"
-                                                                target="_blank">Home 5 (Onepage)</a>
-                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index6"
-                                                                target="_blank">Home 6 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 1 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 2 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 3 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 4 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 5 (Onepage)</a>
+                                                            <a href="/" target="_blank">Home 6 (Onepage)</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#">Pages</a>
                                                     <ul class="mega-menu-dropdown">
                                                         <li class="single-mega-menu">
-                                                            <a href="index">Home 1</a>
-                                                            <a href="index2">Home 2</a>
-                                                            <a href="index3">Home 3</a>
-                                                            <a href="index4">Home 4</a>
+                                                            <a href="/">Home 1</a>
+                                                            <a href="/">Home 2</a>
+                                                            <a href="/">Home 3</a>
+                                                            <a href="/">Home 4</a>
                                                         </li>
                                                         <li class="single-mega-menu">
-                                                            <a href="index5">Home 5</a>
-                                                            <a href="index6">Home 6</a>
+                                                            <a href="/">Home 5</a>
+                                                            <a href="/">Home 6</a>
                                                             <a href="about">About Us</a>
                                                             <a href="services">Our Services</a>
                                                         </li>
@@ -234,12 +227,12 @@
                                                         <ul class="sidenav-nav">
                                                             <li><a href="#">Home</a>
                                                                 <ul>
-                                                                    <li><a href="index">Home 1</a></li>
-                                                                    <li><a href="index2">Home 2</a></li>
-                                                                    <li><a href="index3">Home 3</a></li>
-                                                                    <li><a href="index4">Home 4</a></li>
-                                                                    <li><a href="index5">Home 5</a></li>
-                                                                    <li><a href="index6">Home 6</a></li>
+                                                                    <li><a href="/">Home 1</a></li>
+                                                                    <li><a href="/">Home 2</a></li>
+                                                                    <li><a href="/">Home 3</a></li>
+                                                                    <li><a href="/">Home 4</a></li>
+                                                                    <li><a href="/">Home 5</a></li>
+                                                                    <li><a href="/">Home 6</a></li>
                                                                 </ul>
                                                             </li>
                                                             <li><a href="#">Pages</a>
@@ -290,24 +283,18 @@
                                 <div class="mobile-menu">
                                     <nav id="dropdown">
                                         <ul>
-                                            <li><a href="index">Home 1</a></li>
-                                            <li><a href="index2">Home 2</a></li>
-                                            <li><a href="index3">Home 3</a></li>
-                                            <li><a href="index4">Home 4</a></li>
-                                            <li><a href="index5">Home 5</a></li>
-                                            <li><a href="index6">Home 6</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index"
-                                                    target="_blank">Home 1 (Onepage)</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index2"
-                                                    target="_blank">Home 2 (Onepage)</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index3"
-                                                    target="_blank">Home 3 (Onepage)</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index4"
-                                                    target="_blank">Home 4 (Onepage)</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index5"
-                                                    target="_blank">Home 5 (Onepage)</a></li>
-                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index6"
-                                                    target="_blank">Home 6 (Onepage)</a></li>
+                                            <li><a href="/">Home 1</a></li>
+                                            <li><a href="/">Home 2</a></li>
+                                            <li><a href="/">Home 3</a></li>
+                                            <li><a href="/">Home 4</a></li>
+                                            <li><a href="/">Home 5</a></li>
+                                            <li><a href="/">Home 6</a></li>
+                                            <li><a href="/" target="_blank">Home 1 (Onepage)</a></li>
+                                            <li><a href="/" target="_blank">Home 2 (Onepage)</a></li>
+                                            <li><a href="/" target="_blank">Home 3 (Onepage)</a></li>
+                                            <li><a href="/" target="_blank">Home 4 (Onepage)</a></li>
+                                            <li><a href="/" target="_blank">Home 5 (Onepage)</a></li>
+                                            <li><a href="/" target="_blank">Home 6 (Onepage)</a></li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="mega-menu-area">
                                                     <li><a href="about">About Us</a></li>
@@ -497,7 +484,6 @@
     </body>
 
 
-    <!-- Mirrored from radiustheme.com/demo/html/seoengine/seoengine/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Dec 2022 14:38:08 GMT -->
 
     </html>
 
