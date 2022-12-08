@@ -24,7 +24,7 @@
                 <div class="container z-index-common">
                     <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Mind
                             Your Ads</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local</h1>
+                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">The UK's Local </h1>
                         <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital Marketing <br><span
                                 class="gr-text">Experts.</span></h1>
                         <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
