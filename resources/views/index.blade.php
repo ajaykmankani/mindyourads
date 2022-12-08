@@ -1,638 +1,265 @@
 @extends('master')
-
 @section('main')
-    <div class="as-hero-wrapper hero-4">
-        <div class="hero-slider-4 as-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1">
-            <div class="as-hero-slide">
-                <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_1.jpg"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">Welcome
-                            To Visit</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Dalky Creative &</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital <span
-                                class="gr-text">Agency</span></h1>
-                        <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
-                            imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
-                        <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"
-                                class="as-btn gr-btn">Our Services</a> <a href="contact" class="as-btn style2">Contact
-                                Us</a></div>
-                    </div>
+        <!-- Header Area End Here -->
+        <!-- Slider 1 Area Start Here -->
+        <div class="slider-default slider-overlay">
+            <div class="bend niceties preview-1">
+                <div id="ensign-nivoslider-3" class="slides">
+                    <img src="assets/img/slider/slide1_1.jpg" alt="slider" title="#slider-direction-1" />
+                    <img src="assets/img/slider/slide1_2.jpg" alt="slider" title="#slider-direction-2" />
+                    <img src="assets/img/slider/slide1_3.jpg" alt="slider" title="#slider-direction-3" />
                 </div>
-            </div>
-            <div class="as-hero-slide">
-                <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_2.jpg"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft"
-                            data-ani-delay="0.0s">Welcome To Visit</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Dalky Websites &</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Creative <span
-                                class="gr-text">Agency</span></h1>
-                        <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
-                            imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
-                        <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"
-                                class="as-btn gr-btn">Our Services</a> <a href="contact" class="as-btn style2">Contact
-                                Us</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="as-hero-slide">
-                <div class="as-hero-bg" data-bg-src="assets/img/hero/hero_bg_4_3.jpg"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style4"><span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">We
-                            Always Ready for</span>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.1s">Getting The Best</h1>
-                        <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.2s">Digital <span
-                                class="gr-text">Service</span></h1>
-                        <p class="hero-text" data-ani="slideinleft" data-ani-delay="0.3s">Credibly harness compelling
-                            imperatives whereas seamless e-services. Continually worldwide via adaptive initiatives.</p>
-                        <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.4s"><a href="service"
-                                class="as-btn gr-btn">Our Services</a> <a href="contact" class="as-btn style2">Contact
-                                Us</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-tab-wrap"><button data-slick-prev=".hero-slider-4" class="simple-icon"><i
-                    class="far fa-chevron-up"></i></button>
-            <div class="hero-tab" data-asnavfor=".hero-slider-4">
-                <div class="tab-btn active"><img src="assets/img/hero/hero_4_1.jpg" alt="Tab Image"></div>
-                <div class="tab-btn"><img src="assets/img/hero/hero_4_2.jpg" alt="Tab Image"></div>
-                <div class="tab-btn"><img src="assets/img/hero/hero_4_3.jpg" alt="Tab Image"></div>
-            </div><button data-slick-next=".hero-slider-4" class="simple-icon"><i class="far fa-chevron-down"></i></button>
-        </div>
-    </div>
-    <section class="">
-        <div class="row gx-0 justify-content-center">
-            <div class="col-xxl-3 col-md-6 feature-card-wrap">
-                <div class="feature-card" data-bg-src="assets/img/bg/feature_card_bg.jpg">
-                    <div class="feature-card_icon"><img src="assets/img/icon/feature_1_1.svg" alt="icon"></div>
-                    <h3 class="feature-card_title">Digital Strategy</h3>
-                    <p class="feature-card_text">Assertively maximize synergistic opportunities whereas resource
-                        maximizing quality.</p>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-md-6 feature-card-wrap">
-                <div class="feature-card" data-bg-src="assets/img/bg/feature_card_bg.jpg">
-                    <div class="feature-card_icon"><img src="assets/img/icon/feature_1_2.svg" alt="icon"></div>
-                    <h3 class="feature-card_title">Business Essentials</h3>
-                    <p class="feature-card_text">Assertively maximize synergistic opportunities whereas resource
-                        maximizing quality.</p>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-md-6 feature-card-wrap">
-                <div class="feature-card" data-bg-src="assets/img/bg/feature_card_bg.jpg">
-                    <div class="feature-card_icon"><img src="assets/img/icon/feature_1_3.svg" alt="icon"></div>
-                    <h3 class="feature-card_title">Quick Support</h3>
-                    <p class="feature-card_text">Assertively maximize synergistic opportunities whereas resource
-                        maximizing quality.</p>
-                </div>
-            </div>
-            <div class="col-xxl-3 col-md-6 feature-card-wrap">
-                <div class="feature-card" data-bg-src="assets/img/bg/feature_card_bg.jpg">
-                    <div class="feature-card_icon"><img src="assets/img/icon/feature_1_4.svg" alt="icon"></div>
-                    <h3 class="feature-card_title">Strategic Planning</h3>
-                    <p class="feature-card_text">Assertively maximize synergistic opportunities whereas resource
-                        maximizing quality.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="space bg-top-right" data-bg-src="assets/img/bg/about_bg_2.png">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 mb-xl-0 mb-40">
-                    <div class="img-box6">
-                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
-                        <div class="img2"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_shape_4_1.png" alt="About"></div>
-                        <div class="shape2"><img src="assets/img/normal/about_shape_4_2.png" alt="About"></div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-10">
-                    <div class="ps-xl-4 ms-xl-4">
-                        <div class="title-area mb-30"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                                    alt="Icon"> ABOUT OUR COMPANY</span>
-                            <h2 class="sec-title">We're Digital Agency Works on Interacts</h2>
-                        </div>
-                        <p class="mt-n2 mb-4">Holisticly whiteboard user-centric e-business before professional
-                            deliverables. Globally re-engineer cutting-edge information.</p>
-                        <div class="list-column2">
-                            <div class="ticklist">
-                                <ul>
-                                    <li>Powerful software & tools</li>
-                                </ul>
-                            </div>
-                            <div class="ticklist">
-                                <ul>
-                                    <li>Training platform</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="about-grid-wrap">
-                            <div class="about-grid">
-                                <h3 class="about-grid_year"><span class="counter-number">25</span></h3><span
-                                    class="about-grid_text">Years<br>Experience</span>
-                            </div>
-                            <div class="about-grid">
-                                <div class="about-grid_icon">
-                                    <div class="gr-icon"><img src="assets/img/icon/message.svg" alt="icon"></div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="about-grid_title">Have Queries? Click Below Link</h4><span
-                                        class="about-grid_link"><i class="far fa-hand-point-right me-2"></i><a
-                                            href="faq" class="gr-link">FAQ’S</a></span>
-                                </div>
-                            </div>
-                        </div><a href="about" class="as-btn gr-btn">About Us More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="space bg-smoke2" data-bg-src="assets/img/bg/service_bg_3.png">
-        <div class="container">
-            <div class="title-area text-center"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                        alt="Icon"> OUR SERVICES</span>
-                <h2 class="sec-title">We Provide Quality Services</h2>
-                <p class="sec-text ms-auto me-auto">Globally actualize premier testing procedures and user-centric
-                    e-business. Holisticly productivate cross-media core competencies for 24/7.</p>
-            </div>
-            <div class="row slider-shadow as-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2"
-                data-sm-slide-show="1" data-arrows="true">
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-block">
-                        <div class="service-block_img"><img src="assets/img/service/service_2_1.jpg" alt="service image">
-                            <div class="service-block_icon"><img src="assets/img/icon/service_2_1.svg" alt="Icon">
-                            </div>
-                        </div>
-                        <div class="service-block_content"><span class="service-block_cat"><i
-                                    class="fa-light fa-tags"></i> Creative Business</span>
-                            <h3 class="service-block_title box-title"><a href="service-details">Web Development</a>
-                            </h3>
-                            <p class="service-block_text">Professionally envisione multidisciplinary result rather than
-                                magnetic.</p><a href="service-details" class="gr-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-block">
-                        <div class="service-block_img"><img src="assets/img/service/service_2_2.jpg" alt="service image">
-                            <div class="service-block_icon"><img src="assets/img/icon/service_2_2.svg" alt="Icon">
-                            </div>
-                        </div>
-                        <div class="service-block_content"><span class="service-block_cat"><i
-                                    class="fa-light fa-tags"></i> Creative Ideas</span>
-                            <h3 class="service-block_title box-title"><a href="service-details">UI/UX Designs</a>
-                            </h3>
-                            <p class="service-block_text">Professionally envisione multidisciplinary result rather than
-                                magnetic.</p><a href="service-details" class="gr-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-block">
-                        <div class="service-block_img"><img src="assets/img/service/service_2_3.jpg" alt="service image">
-                            <div class="service-block_icon"><img src="assets/img/icon/service_2_3.svg" alt="Icon">
-                            </div>
-                        </div>
-                        <div class="service-block_content"><span class="service-block_cat"><i
-                                    class="fa-light fa-tags"></i> Business Ideas</span>
-                            <h3 class="service-block_title box-title"><a href="service-details">Product
-                                    Management</a></h3>
-                            <p class="service-block_text">Professionally envisione multidisciplinary result rather than
-                                magnetic.</p><a href="service-details" class="gr-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="service-block">
-                        <div class="service-block_img"><img src="assets/img/service/service_2_4.jpg" alt="service image">
-                            <div class="service-block_icon"><img src="assets/img/icon/service_2_4.svg" alt="Icon">
-                            </div>
-                        </div>
-                        <div class="service-block_content"><span class="service-block_cat"><i
-                                    class="fa-light fa-tags"></i> Creative Business</span>
-                            <h3 class="service-block_title box-title"><a href="service-details">Apps
-                                    Development</a></h3>
-                            <p class="service-block_text">Professionally envisione multidisciplinary result rather than
-                                magnetic.</p><a href="service-details" class="gr-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-40">
-                <p class="mb-n2">Solution We Are Provide, <a class="gr-link" href="service">Browse All Services</a>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="cta-sec" data-bg-src="assets/img/bg/cta_bg_5.jpg">
-        <div class="container">
-            <div class="row gy-40 align-items-center justify-content-between">
-                <div class="col-lg-6">
-                    <h2 class="sec-title text-white mb-10">You Need Our support?</h2>
-                    <p class="text-white mb-n2">Perfect Solution For Your Company.Conveniently grow long-term.</p>
-                </div>
-                <div class="col-lg-auto"><a href="tel:+19524357106" class="call-btn">
-                        <div class="play-btn style4"><i class="fas fa-phone"></i></div>
-                        <div class="btn-content"><span class="btn-text text-white">CALL US</span> <span
-                                class="box-title gr-text">+19524357106</span></div>
-                    </a></div>
-                <div class="col-lg-auto"><a href="contact" class="as-btn gr-btn">Get In Touch</a></div>
-            </div>
-        </div>
-    </section>
-    <div class="space">
-        <div class="container">
-            <div class="row flex-row-reverse">
-                <div class="col-xl-6">
-                    <div class="img-box7">
-                        <div class="img1"><img src="assets/img/normal/why_2.jpg" alt="image"></div>
-                        <div class="as-box1">
-                            <div class="box-icon"><img src="assets/img/icon/user_star.svg" alt="icon"></div>
-                            <div class="media-body">
-                                <h4 class="title text-white mb-0"><span class="counter-number">10</span>k+</h4><span
-                                    class="text text-white">Clients Active</span>
+                <div id="slider-direction-1" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-1 container">
+                        <div class="title-container s-tb-c">
+                            <p class="slider-big-text">Bost Your Site Today!</p>
+                            <p>Rimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since printer.</p>
+                            <div class="slider-btn-area">
+                                <a href="#" class="ghost-btn">Purchase Now!</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 pe-xl-5">
-                    <div class="title-area mb-30"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                                alt="Icon"> Why choose us</span>
-                        <h2 class="sec-title">We deal with all kind of industries</h2>
-                    </div>
-                    <div class="tick-menu filter-menu-active"><button data-filter=".cat1" class="active"
-                            type="button">EXPERIENCE</button> <button data-filter=".cat2"
-                            type="button">CREATIVE</button> <button data-filter=".cat3" type="button">SKILL</button>
-                    </div>
-                    <div class="filter-active-cat1">
-                        <div class="filter-item w-100 cat1">
-                            <p class="mt-n2 mb-4">Continually deploy extensible quality vectors whereas strategic
-                                manufactured products. Collaboratively grow innovative. niche markets via unique value.
-                                Conveniently strategize.</p>
-                            <div class="experience-list">
-                                <div class="experience-list_img"><img src="assets/img/normal/experience_1.jpg"
-                                        alt="experience"></div>
-                                <div class="media-body">
-                                    <h3 class="h4 box-title">25+ Years Experience</h3>
-                                    <p class="experience-list_text">Dynamically strategize wireless data via go forward
-                                        vortals. Quickly productize client-centered value rather than out-of-the-box.
-                                    </p>
-                                </div>
+                <div id="slider-direction-2" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-2 container">
+                        <div class="title-container s-tb-c">
+                            <p class="slider-big-text">Monthly SEO Result</p>
+                            <p>Rimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since printer.</p>
+                            <div class="slider-btn-area">
+                                <a href="#" class="ghost-btn">Purchase Now!</a>
                             </div>
                         </div>
-                        <div class="filter-item w-100 cat2">
-                            <p class="mt-n2 mb-4">Continually deploy extensible quality vectors whereas strategic
-                                manufactured products. Collaboratively grow innovative. niche markets via unique value.
-                                Conveniently strategize.</p>
-                            <div class="experience-list">
-                                <div class="experience-list_img"><img src="assets/img/normal/creative_1.jpg"
-                                        alt="experience"></div>
-                                <div class="media-body">
-                                    <h3 class="h4 box-title">Lots of sreative staff</h3>
-                                    <p class="experience-list_text">Dynamically strategize wireless data via go forward
-                                        vortals. Quickly productize client-centered value rather than out-of-the-box.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter-item w-100 cat3">
-                            <p class="mt-n2 mb-4">Continually deploy extensible quality vectors whereas strategic
-                                manufactured products. Collaboratively grow innovative. niche markets via unique value.
-                                Conveniently strategize.</p>
-                            <div class="skill-circle-wrap">
-                                <div class="skill-circle">
-                                    <div class="progressbar">
-                                        <div class="circle" data-percent="90">
-                                            <div class="circle-num"></div>
-                                        </div><span class="skill-circle_title">DIGITAL MERKETING</span>
-                                    </div>
-                                </div>
-                                <div class="skill-circle">
-                                    <div class="progressbar">
-                                        <div class="circle" data-percent="80">
-                                            <div class="circle-num"></div>
-                                        </div><span class="skill-circle_title">EXPERIENCE TEAM</span>
-                                    </div>
-                                </div>
+                    </div>
+                </div>
+                <div id="slider-direction-3" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-3 container">
+                        <div class="title-container s-tb-c">
+                            <p class="slider-big-text">Weekly Analytics Report</p>
+                            <p>Rimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since printer.</p>
+                            <div class="slider-btn-area">
+                                <a href="#" class="ghost-btn">Purchase Now!</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="space-bottom">
-        <div class="container">
-            <div class="row gy-40 justify-content-between">
-                <div class="col-sm-6 col-xl-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon style2"><i class="fa-thin fa-file-check"></i></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number text-title"><span class="counter-number">2.2</span>k</h2>
-                            <p class="counter-card_text text-body">Project Completed</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xl-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon style2"><i class="fa-thin fa-shield-check"></i></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number text-title"><span class="counter-number">3.1</span>k</h2>
-                            <p class="counter-card_text text-body">Active Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xl-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon style2"><i class="fa-thin fa-mug-hot"></i></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number text-title"><span class="counter-number">1.9</span>k</h2>
-                            <p class="counter-card_text text-body">Cup of Coffee</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xl-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon style2"><i class="fa-thin fa-face-smile"></i></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number text-title"><span class="counter-number">1.1</span>k</h2>
-                            <p class="counter-card_text text-body">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="" data-pos-for=".process-sec" data-sec-pos="bottom-half">
+        <!-- Slider 1 Area End Here -->
+        <!-- Home one service Start Here -->
+        <div class="home-one-service padding-top-bottom">
             <div class="container">
-                <div class="video-box4" data-overlay="overlay1" data-opacity="5"><img
-                        src="assets/img/normal/video_5.jpg" alt="video"> <a
-                        href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style5 popup-video"><i
-                            class="fas fa-play"></i></a>
-                    <div class="video-content">
-                        <h2 class="h4 mb-10">Watch Our Company Activities</h2><a
-                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="gr-link popup-video">Get
-                            Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="process-sec bg-smoke2 space" data-bg-src="assets/img/bg/process_bg_2.png">
-        <div class="container">
-            <div class="title-area text-center"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                        alt="Icon"> work prosses</span>
-                <h2 class="sec-title">How We Work!</h2>
-                <p class="sec-text ms-auto me-auto">Conveniently reconceptualize plug-and-play results through
-                    multidisciplinary infomediaries. Appropriately simplify front-end content.</p>
-            </div>
-            <div class="row gy-40 justify-content-center">
-                <div class="col-md-6 col-lg-4 process-box-wrap">
-                    <div class="process-box">
-                        <div class="process-box_icon" data-bg-src="assets/img/bg/process_icon_bg.svg"><img
-                                src="assets/img/icon/process_2_1.svg" alt="icon">
-                            <div class="process-box_number">01</div>
-                        </div>
-                        <h2 class="process-box_title box-title">Business Planning</h2>
-                        <p class="process-box_text">Professionally predominate technically sound imperatives and
-                            emerging content. Globally synergize future.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 process-box-wrap">
-                    <div class="process-box">
-                        <div class="process-box_icon" data-bg-src="assets/img/bg/process_icon_bg.svg"><img
-                                src="assets/img/icon/process_2_2.svg" alt="icon">
-                            <div class="process-box_number">02</div>
-                        </div>
-                        <h2 class="process-box_title box-title">Market research</h2>
-                        <p class="process-box_text">Professionally predominate technically sound imperatives and
-                            emerging content. Globally synergize future.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 process-box-wrap">
-                    <div class="process-box">
-                        <div class="process-box_icon" data-bg-src="assets/img/bg/process_icon_bg.svg"><img
-                                src="assets/img/icon/process_2_3.svg" alt="icon">
-                            <div class="process-box_number">03</div>
-                        </div>
-                        <h2 class="process-box_title box-title">Cognitive Solution</h2>
-                        <p class="process-box_text">Professionally predominate technically sound imperatives and
-                            emerging content. Globally synergize future.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="space" data-bg-src="assets/img/bg/team_bg_3.jpg">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-lg-auto">
-                    <div class="title-area"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                                alt="Icon"> team members</span>
-                        <h2 class="sec-title text-white">Meet Our Expart</h2>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-7 ps-xl-5">
-                    <div class="sec-btn">
-                        <p class="sec-quote text-white">Seamlessly reinvent distributed mindshare after
-                            resource-leveling technology. Seamlessly restore just in time deliverables without
-                            integrated outsourcing. Interactively transition team.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row as-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2"
-                data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="true">
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="as-team team-block">
-                        <div class="team-img"><img src="assets/img/team/team_4_1.jpg" alt="Team">
-                            <div class="as-social gr-social"><a target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
-                                    href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank"
-                                    href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon teal">
+                                <a><i class="flaticon-target"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Keyword Targeting</a></h3>
+                                <p>Keywords are the search terms that people into search engines. Your rankings are based on the relevance of your page to those keywords.</p>
                             </div>
                         </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="team-details">Imon Hossain</a></h3><span
-                                class="team-desig">UI/UX Designer</span>
-                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="as-team team-block">
-                        <div class="team-img"><img src="assets/img/team/team_4_2.jpg" alt="Team">
-                            <div class="as-social gr-social"><a target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
-                                    href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank"
-                                    href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon red">
+                                <a><i class="flaticon-graphic-1"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Web Analytics</a></h3>
+                                <p>Web analytics is the measurement, collection, analysis and reporting of web data for purposes of under standing and optimizing web usage.</p>
                             </div>
                         </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="team-details">Jenifer Lopez</a></h3><span
-                                class="team-desig">Programmer</span>
-                        </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="as-team team-block">
-                        <div class="team-img"><img src="assets/img/team/team_4_3.jpg" alt="Team">
-                            <div class="as-social gr-social"><a target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
-                                    href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank"
-                                    href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon blue">
+                                <a><i class="flaticon-mail"></i></a>
                             </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="team-details">Michel Richard</a></h3><span
-                                class="team-desig">Web Developer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="as-team team-block">
-                        <div class="team-img"><img src="assets/img/team/team_4_4.jpg" alt="Team">
-                            <div class="as-social gr-social"><a target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
-                                    href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank"
-                                    href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                            <div class="media content">
+                                <h3><a href="#">E-mail Marketing</a></h3>
+                                <p>Email marketing is directly sending a commercial message, typically to a group of people, using email. In its broadest sense, every email.</p>
                             </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="team-details">Sanjida Cruze</a></h3><span
-                                class="team-desig">Digital Marketer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="as-team team-block">
-                        <div class="team-img"><img src="assets/img/team/team_4_5.jpg" alt="Team">
-                            <div class="as-social gr-social"><a target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a> <a target="_blank"
-                                    href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a target="_blank"
-                                    href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank"
-                                    href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="team-details">Joserd Rosen</a></h3><span
-                                class="team-desig">Social Marketer</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="space">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-auto text-xl-start text-center">
-                    <div class="custom-box1">
-                        <div class="title-area mb-30"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                                    alt="Icon"> More About Us</span>
-                            <h2 class="sec-title">Quality & Experience Digital Agency</h2>
+        <!-- Home one service End Here -->
+        <!-- Checkout Start Here -->
+        <div class="check-out-area padding-top-bottom">
+            <div class="container">
+                <form class="checkout" id="checkoutForm">
+                    <fieldset>
+                        <!-- Form Name -->
+                        <h2>Check Your Website’s SEO Problems For Free!</h2>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <input id="form-name" name="url" placeholder="Type Your Website URL Here ..." class="form-control input-md" type="text">
                         </div>
-                        <p class="mt-n2 mb-30">Continually deploy extensible quality vectors whereas strategic
-                            manufactured products. Collaboratively grow innovative.</p>
-                        <div class="rounded-10"><img class="w-100" src="assets/img/normal/about_5_1.jpg"
-                                alt="about">
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <input id="form-email" name="email" placeholder="Type Your E-mailL Here ..." class="form-control input-md" type="text">
+                        </div>
+                        <div class="form-group send-button">
+                            <button type="submit" class="btn-read-more-fill btn-send">Checkout</button>
+                        </div>
+                    </fieldset>
+                    <div class='form-response'></div>
+                </form>
+            </div>
+        </div>
+        <!-- Checkout End Here -->
+        <!-- About SEO start Here -->
+        <div class="about-seo-one padding-top-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="content-part">
+                            <h1>What Is SEO?</h1>
+                            <p>SEO stands for “search engine optimization.” It is the process of getting traffic from the “free,” “organic,” “editorial” or “natural” search results on search engines.</p>
+                            <a class="ghost-btn" href="#">Start Free Trial</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="image-part">
+                            <img src="assets/img/what_seo_img.png" alt="what seo">
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-auto mt-5 mt-xl-0">
-                    <div class="custom-box2">
-                        <div class="tab-menu3 filter-menu-active"><button data-filter=".cat1" class="active"
-                                type="button">our Mission</button> <button data-filter=".cat2" type="button">Our
-                                Vission</button> <button data-filter=".cat3" type="button">our History</button> <button
-                                data-filter=".cat4" type="button">Award win</button></div>
-                        <div class="filter-active-cat1">
-                            <div class="filter-item w-100 cat1">
-                                <h3 class="h4 mb-20">We Creating Value Through Business</h3>
-                                <p class="mb-30">Energistically deploy frictionless catalysts for change vis-a-vis
-                                    ubiquitous benefits. Phosfluorescently disintermediate 24/365 benefits whereas
-                                    resource maximizing manufactured products. Compellingly communicate user-centric
-                                    relationships without goal-oriented interfaces.</p>
-                                <div class="mission-list">
-                                    <div class="rounded-10"><img src="assets/img/normal/mission_1.jpg" alt="Mission">
-                                    </div>
-                                    <div class="ticklist">
-                                        <ul>
-                                            <li>Powerful software & tools</li>
-                                            <li>Financial Growth</li>
-                                            <li>Dedicated Team member</li>
-                                            <li>Maecenas consectetur</li>
-                                            <li>We drink our own kool-aid</li>
-                                            <li>In hac habitasse dictumst</li>
-                                        </ul>
-                                    </div>
+            </div>
+        </div>
+        <!-- About SEO End Here -->
+        <!-- Take our service Start Here -->
+        <div class="take-our-service">
+            <div class="container">
+                <div class="row">
+                    <div class="title-section">
+                        <h2>Why Take Our Services</h2>
+                        <p>Timply dummy text the printing typesetting industry</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon teal">
+                                <a><i class="flaticon-graphic"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Web Analytics</a></h3>
+                                <p>Web analytics is the measurement, collection, analysis and reporting of web data for purposes of under standing and optimizing web usage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon red">
+                                <a><i class="flaticon-target"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Keyword Targeting</a></h3>
+                                <p>Keywords are the search terms that people into search engines. Your rankings are based on the relevance of your page to those keywords.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon blue">
+                                <a><i class="flaticon-light-bulb"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Creative Work</a></h3>
+                                <p>As a creative professional, you'll know only too well how important inspiration is for your work. That's whether you've just made a cup.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon grey">
+                                <a><i class="flaticon-mail"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">E-mail Marketing</a></h3>
+                                <p>Email marketing is directly sending a commercial message, typically to a group of people, using email. In its broadest sense, every email.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon yellow">
+                                <a><i class="flaticon-share"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Real Content</a></h3>
+                                <p>Content is king. You’ll hear that phrase over and over again when it comes SEO success. Get your content right, and you’ve created.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-service">
+                            <div class="pull-left icon green">
+                                <a><i class="flaticon-headphones"></i></a>
+                            </div>
+                            <div class="media content">
+                                <h3><a href="#">Quick Support</a></h3>
+                                <p>Simply dummy text of the printing and typesetting industr Ipsum has industry's standardext.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Take our service End Here -->
+        <!-- Counter section Start Here -->
+        <div class="counter-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="counter-box">
+                            <div class="single-counter">
+                                <a href="#" class="pull-left">
+                                    <i class="flaticon-handshake"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h2 class="about-counter" data-num="5090">5,090</h2>
+                                    <p>Customer Satisfaction</p>
                                 </div>
                             </div>
-                            <div class="filter-item w-100 cat2">
-                                <h3 class="h4 mb-20">We work Creating Best For Customer</h3>
-                                <p class="mb-30">Energistically deploy frictionless catalysts for change vis-a-vis
-                                    ubiquitous benefits. Phosfluorescently disintermediate 24/365 benefits whereas
-                                    resource maximizing manufactured products. Compellingly communicate user-centric
-                                    relationships without goal-oriented interfaces.</p>
-                                <div class="mission-list">
-                                    <div class="rounded-10"><img src="assets/img/normal/mission_2.jpg" alt="Mission">
-                                    </div>
-                                    <div class="ticklist">
-                                        <ul>
-                                            <li>Powerful software & tools</li>
-                                            <li>Financial Growth</li>
-                                            <li>Dedicated Team member</li>
-                                            <li>Maecenas consectetur</li>
-                                            <li>We drink our own kool-aid</li>
-                                            <li>In hac habitasse dictumst</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="counter-box">
+                            <div class="single-counter">
+                                <a href="#" class="pull-left">
+                                    <i class="flaticon-graphic-1"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h2 class="about-counter" data-num="3090">3,090</h2>
+                                    <p>Achieve Goals</p>
                                 </div>
                             </div>
-                            <div class="filter-item w-100 cat3">
-                                <h3 class="h4 mb-20">Have More Than 23 Years Experience</h3>
-                                <p class="mb-30">Energistically deploy frictionless catalysts for change vis-a-vis
-                                    ubiquitous benefits. Phosfluorescently disintermediate 24/365 benefits whereas
-                                    resource maximizing manufactured products. Compellingly communicate user-centric
-                                    relationships without goal-oriented interfaces.</p>
-                                <div class="mission-list">
-                                    <div class="rounded-10"><img src="assets/img/normal/mission_3.jpg" alt="Mission">
-                                    </div>
-                                    <div class="ticklist">
-                                        <ul>
-                                            <li>Powerful software & tools</li>
-                                            <li>Financial Growth</li>
-                                            <li>Dedicated Team member</li>
-                                            <li>Maecenas consectetur</li>
-                                            <li>We drink our own kool-aid</li>
-                                            <li>In hac habitasse dictumst</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="counter-box">
+                            <div class="single-counter">
+                                <a href="#" class="pull-left">
+                                    <i class="flaticon-share"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h2 class="about-counter" data-num="2050">2,050</h2>
+                                    <p>Share People</p>
                                 </div>
                             </div>
-                            <div class="filter-item w-100 cat4">
-                                <h3 class="h4 mb-20">Many Trusted Award We Have Won</h3>
-                                <p class="mb-30">Energistically deploy frictionless catalysts for change vis-a-vis
-                                    ubiquitous benefits. Phosfluorescently disintermediate 24/365 benefits whereas
-                                    resource maximizing manufactured products. Compellingly communicate user-centric
-                                    relationships without goal-oriented interfaces.</p>
-                                <div class="mission-list">
-                                    <div class="rounded-10"><img src="assets/img/normal/mission_4.jpg" alt="Mission">
-                                    </div>
-                                    <div class="ticklist">
-                                        <ul>
-                                            <li>Powerful software & tools</li>
-                                            <li>Financial Growth</li>
-                                            <li>Dedicated Team member</li>
-                                            <li>Maecenas consectetur</li>
-                                            <li>We drink our own kool-aid</li>
-                                            <li>In hac habitasse dictumst</li>
-                                        </ul>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="counter-box">
+                            <div class="single-counter">
+                                <a href="#" class="pull-left">
+                                    <i class="flaticon-headphones"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h2 class="about-counter" data-num="9000">9,000</h2>
+                                    <p>Dedicated Support</p>
                                 </div>
                             </div>
                         </div>
@@ -640,258 +267,250 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="space-bottom">
-        <div class="container">
-            <div class="title-box1 mb-5 text-center">
-                <div class="bg-white">
-                    <div class="shadow-text">10K+</div>
-                    <h2 class="h5 title">We Have More Then <span class="gr-text">10k+</span> Global Clients</h2>
+        <!-- Counter section End Here -->
+        <!-- Recent case studies Start Here -->
+        <div class="recent-case-studies padding-two-top-bottom">
+            <div class="container">
+                <div class="title-section">
+                    <h2>Recent Case Studies</h2>
+                    <p>Timply dummy text the printing typesetting industry</p>
                 </div>
-            </div>
-            <div class="row as-carousel" id="brandSlide" data-slide-show="6" data-lg-slide-show="5"
-                data-md-slide-show="4" data-sm-slide-show="3" data-xs-slide-show="3">
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_1.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_2.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_3.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_4.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_5.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_6.png" alt="Brand Logo"></div>
-                </div>
-                <div class="col-auto">
-                    <div class="text-center"><img src="assets/img/brand/brand_2_3.png" alt="Brand Logo"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="space bg-smoke2 bg-auto overflow-hidden" data-bg-src="assets/img/bg/testi_bg_3.png">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-5">
-                    <div class="testi-grid-area">
-                        <div class="testi-grid-img as-carousel" data-slide-show="1" data-fade="true">
-                            <div>
-                                <div class="img"><img src="assets/img/testimonial/testi_grid_1.jpg" alt="testimonial">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/img/testimonial/testi_grid_2.jpg" alt="testimonial">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/img/testimonial/testi_grid_3.jpg" alt="testimonial">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/img/testimonial/testi_grid_4.jpg" alt="testimonial">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/img/testimonial/testi_grid_5.jpg" alt="testimonial">
-                                </div>
-                            </div>
+                <div class="rc-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="true" data-nav="false" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="false" data-r-x-small-dots="true" data-r-small="2" data-r-small-nav="false" data-r-small-dots="true" data-r-medium="3" data-r-medium-nav="true" data-r-medium-dots="false">
+                    <div class="single-case-item">
+                        <div class="case-image">
+                            <a href="#"><img src="assets/img/casestudies/case1.jpg" alt="case"></a>
+                            <div class="overly"><a href="#">Details</a></div>
                         </div>
-                        <div class="testi-grid-thumb" data-asnavfor=".testi-grid-slide">
-                            <div class="tab-btn active"><img src="assets/img/testimonial/testi_grid_thumb_1.jpg"
-                                    alt="thumb"></div>
-                            <div class="tab-btn"><img src="assets/img/testimonial/testi_grid_thumb_2.jpg" alt="thumb">
-                            </div>
-                            <div class="tab-btn"><img src="assets/img/testimonial/testi_grid_thumb_3.jpg" alt="thumb">
-                            </div>
-                            <div class="tab-btn"><img src="assets/img/testimonial/testi_grid_thumb_4.jpg" alt="thumb">
-                            </div>
-                            <div class="tab-btn"><img src="assets/img/testimonial/testi_grid_thumb_5.jpg" alt="thumb">
-                            </div>
+                        <div class="case-content">
+                            <h3><a href="#">Content Strategy</a></h3>
+                            <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-6 offset-xl-1">
-                    <div class="testi-grid-wrap">
-                        <div class="title-area mb-30"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                                    alt="Icon"> Testimonials</span>
-                            <h2 class="sec-title">Customer Feedbacks</h2>
-                            <p class="sec-text">Enthusiastically architect corporate metrics via enterprise
-                                methodologies. Progressively extend distinctive process improvements rather.</p>
+                    <div class="single-case-item">
+                        <div class="case-image">
+                            <a href="#"><img src="assets/img/casestudies/case2.jpg" alt="case"></a>
+                            <div class="overly"><a href="#">Details</a></div>
                         </div>
-                        <div class="testi-grid-slide as-carousel" data-slide-show="1" data-fade="true"
-                            data-asnavfor=".testi-grid-img">
-                            <div class="">
-                                <div class="testi-grid">
-                                    <p class="testi-grid_text"><i class="fa-solid fa-quote-left"></i>Holisticly
-                                        fabricate mission-critical manufactured products via enterprise-wide benefits
-                                        Synergistically reconceptualize compelling internal or "organic" sources whereas
-                                        low-risk high-yield infrastructures. Professionally deploy user friendly value
-                                        rather than prospective technology. Enthusiastically.<i
-                                            class="fa-solid fa-quote-right"></i></p>
-                                    <div class="testi-grid_profile">
-                                        <div class="testi-grid_avater"><img
-                                                src="assets/img/testimonial/testi_grid_thumb_1.jpg" alt="Avater"></div>
-                                        <div class="media-body">
-                                            <h3 class="testi-grid_name box-title">Mary Cruzleen</h3><span
-                                                class="testi-grid_desig">CEO of Maithon</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="testi-grid">
-                                    <p class="testi-grid_text"><i class="fa-solid fa-quote-left"></i>Fabricate
-                                        holisticly mission-critical manufactured products via enterprise-wide benefits
-                                        Synergistically reconceptualize compelling internal or "organic" sources whereas
-                                        low-risk high-yield infrastructures. Professionally deploy user friendly value
-                                        rather than technology Enthusiastically prospective.<i
-                                            class="fa-solid fa-quote-right"></i></p>
-                                    <div class="testi-grid_profile">
-                                        <div class="testi-grid_avater"><img
-                                                src="assets/img/testimonial/testi_grid_thumb_2.jpg" alt="Avater"></div>
-                                        <div class="media-body">
-                                            <h3 class="testi-grid_name box-title">David Milton</h3><span
-                                                class="testi-grid_desig">CEO of Gazal</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="testi-grid">
-                                    <p class="testi-grid_text"><i class="fa-solid fa-quote-left"></i>Manufactured
-                                        holisticly fabricate mission-critical products via enterprise-wide benefits
-                                        Synergistically reconceptualize compelling internal or "organic" sources whereas
-                                        low-risk high-yield infrastructures. Professionally deploy user friendly value
-                                        rather than prospective technology. Professionally.<i
-                                            class="fa-solid fa-quote-right"></i></p>
-                                    <div class="testi-grid_profile">
-                                        <div class="testi-grid_avater"><img
-                                                src="assets/img/testimonial/testi_grid_thumb_3.jpg" alt="Avater"></div>
-                                        <div class="media-body">
-                                            <h3 class="testi-grid_name box-title">Abraham Khalil</h3><span
-                                                class="testi-grid_desig">CEO Angfuzsoft</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="testi-grid">
-                                    <p class="testi-grid_text"><i class="fa-solid fa-quote-left"></i>Technology
-                                        fabricate mission-critical Enthusiastically products via enterprise-wide
-                                        benefits Synergistically reconceptualize compelling internal or "organic"
-                                        sources whereas low-risk high-yield infrastructures. Professionally deploy user
-                                        friendly value rather than prospective technology. manufactured.<i
-                                            class="fa-solid fa-quote-right"></i></p>
-                                    <div class="testi-grid_profile">
-                                        <div class="testi-grid_avater"><img
-                                                src="assets/img/testimonial/testi_grid_thumb_4.jpg" alt="Avater"></div>
-                                        <div class="media-body">
-                                            <h3 class="testi-grid_name box-title">Sunzida Carlose</h3><span
-                                                class="testi-grid_desig">CEO of Kamlavai</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="testi-grid">
-                                    <p class="testi-grid_text"><i class="fa-solid fa-quote-left"></i>Fabricate
-                                        technology mission-critical Enthusiastically products via enterprise-wide
-                                        benefits Synergistically reconceptualize compelling internal or "organic"
-                                        sources whereas low-risk high-yield infrastructures. Professionally deploy user
-                                        friendly value rather than technology. manufactured prospective.<i
-                                            class="fa-solid fa-quote-right"></i></p>
-                                    <div class="testi-grid_profile">
-                                        <div class="testi-grid_avater"><img
-                                                src="assets/img/testimonial/testi_grid_thumb_5.jpg" alt="Avater"></div>
-                                        <div class="media-body">
-                                            <h3 class="testi-grid_name box-title">Sarlin Shorose</h3><span
-                                                class="testi-grid_desig">CEO of Toto LTD.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="icon-box"><button data-slick-prev=".testi-grid-slide" class="slick-arrow default"><i
-                                    class="far fa-arrow-left"></i></button> <button data-slick-next=".testi-grid-slide"
-                                class="slick-arrow default"><i class="far fa-arrow-right"></i></button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="space">
-        <div class="container">
-            <div class="title-area text-center"><span class="sub-title2"><img src="assets/img/shape/subtitle.svg"
-                        alt="Icon"> blog & news</span>
-                <h2 class="sec-title">Latest News & Blog</h2>
-                <p class="sec-text ms-auto me-auto">Interactively whiteboard interdependent expertise vis-a-vis
-                    process-centric vortals. Appropriately implement future-proof potentialities.</p>
-            </div>
-            <div class="row slider-shadow as-carousel" data-slide-show="3" data-ml-slide-show="2" data-lg-slide-show="2"
-                data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img"><img src="assets/img/blog/blog_2_1.jpg" alt="blog image"></div>
-                        <div class="blog-content"><a class="date" href="blog"><span class="gr-text">12</span>
-                                May</a>
-                            <div class="blog-meta"><a href="blog"><i class="far fa-tag"></i>Marketing</a> <a
-                                    href="blog"><i class="fal fa-comment"></i>Comments (3)</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details">Delivering the best digital
-                                    marketing in 2022</a></h3>
-                            <p class="blog-text">Phosfluorescently leverage existing future proof bandwidth rather</p><a
-                                href="blog-details" class="gr-link">Read More</a>
+                        <div class="case-content">
+                            <h3><a href="#">Top SEO Experts</a></h3>
+                            <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img"><img src="assets/img/blog/blog_2_2.jpg" alt="blog image"></div>
-                        <div class="blog-content"><a class="date" href="blog"><span class="gr-text">14</span>
-                                May</a>
-                            <div class="blog-meta"><a href="blog"><i class="far fa-tag"></i>UI/UX Design</a> <a
-                                    href="blog"><i class="fal fa-comment"></i>Comments (3)</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details">The best UX design blogs for
-                                    industry project</a></h3>
-                            <p class="blog-text">Getting start wit leverage existing future proof bandwidth rather than
-                            </p><a href="blog-details" class="gr-link">Read More</a>
+                    <div class="single-case-item">
+                        <div class="case-image">
+                            <a href="#"><img src="assets/img/casestudies/case3.jpg" alt="case"></a>
+                            <div class="overly"><a href="#">Details</a></div>
+                        </div>
+                        <div class="case-content">
+                            <h3><a href="#">Marketing Stactics</a></h3>
+                            <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img"><img src="assets/img/blog/blog_2_3.jpg" alt="blog image"></div>
-                        <div class="blog-content"><a class="date" href="blog"><span class="gr-text">15</span>
-                                May</a>
-                            <div class="blog-meta"><a href="blog"><i class="far fa-tag"></i>Web Design</a> <a
-                                    href="blog"><i class="fal fa-comment"></i>Comments (3)</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details">Trusted by The world’s best
-                                    organizations of</a></h3>
-                            <p class="blog-text">Modern House at leverage existing future proof rather than of-manusa.
-                            </p><a href="blog-details" class="gr-link">Read More</a>
+                    <div class="single-case-item">
+                        <div class="case-image">
+                            <a href="#"><img src="assets/img/casestudies/case1.jpg" alt="case"></a>
+                            <div class="overly"><a href="#">Details</a></div>
+                        </div>
+                        <div class="case-content">
+                            <h3><a href="#">Content Strategy</a></h3>
+                            <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-box">
-                        <div class="blog-img"><img src="assets/img/blog/blog_2_4.jpg" alt="blog image"></div>
-                        <div class="blog-content"><a class="date" href="blog"><span class="gr-text">22</span>
-                                May</a>
-                            <div class="blog-meta"><a href="blog"><i class="far fa-tag"></i>Researching</a> <a
-                                    href="blog"><i class="fal fa-comment"></i>Comments (3)</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details">Our best UX design blogs for
-                                    industry tourist</a></h3>
-                            <p class="blog-text">Building Design a leverage existing future proof rather than of-morate.
-                            </p><a href="blog-details" class="gr-link">Read More</a>
+                    <div class="single-case-item">
+                        <div class="case-image">
+                            <a href="#"><img src="assets/img/casestudies/case2.jpg" alt="case"></a>
+                            <div class="overly"><a href="#">Details</a></div>
+                        </div>
+                        <div class="case-content">
+                            <h3><a href="#">Marketing Stactics</a></h3>
+                            <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-@endsection
+        <!-- Recent case studies End Here -->
+        <!-- Seo premium feature Start Here -->
+        <div class="premium-feature-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="premium-content">
+                            <h3>Not Enough For Your <span>SEO</span> Needs?</h3>
+                            <p>Want to add more projects/ keywords/ pages to analyze?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="premium-button">
+                            <a class="default-button-btn" href="#">Premium Features</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seo premium feature End Here -->
+        <!-- Our pricing plans Start Here -->
+        <div class="our-pricing-table padding-two-top-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="title-section">
+                        <h2>Our Pricing Plans</h2>
+                        <p>Simply dummy text of the printing and typesetting industry arore</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-table-item pricing-table-one">
+                            <h4>Basic</h4>
+                            <h3>$39.00</h3>
+                            <ul>
+                                <li>5 Analytics Campaigns</li>
+                                <li>300 Keywords</li>
+                                <li>250,000 Crawled Pages</li>
+                                <li>-</li>
+                                <li>15 Social Accounts</li>
+                            </ul>
+                            <a class="default-button-btn" href="#">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-table-item pricing-table-two">
+                            <h4>Standard</h4>
+                            <h3>$59.00</h3>
+                            <ul>
+                                <li>5 Analytics Campaigns</li>
+                                <li>300 Keywords</li>
+                                <li>250,000 Crawled Pages</li>
+                                <li>-</li>
+                                <li>15 Social Accounts</li>
+                            </ul>
+                            <a class="default-button-btn" href="#">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-table-item pricing-table-three">
+                            <h4>Unlimited</h4>
+                            <h3>$99.00</h3>
+                            <ul>
+                                <li>5 Analytics Campaigns</li>
+                                <li>300 Keywords</li>
+                                <li>250,000 Crawled Pages</li>
+                                <li>-</li>
+                                <li>15 Social Accounts</li>
+                            </ul>
+                            <a class="default-button-btn" href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our pricing plans End Here -->
+        <!-- Happy clients Start Here -->
+        <div class="happy-clients padding-top-bottom">
+            <div class="container">
+                <div class="title-section">
+                    <h2>Happy Client Says</h2>
+                </div>
+                <div class="rc-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="2000" data-dots="true" data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="false" data-r-x-small-dots="true" data-r-small="1" data-r-small-nav="false" data-r-small-dots="true" data-r-medium="1" data-r-medium-nav="true" data-r-medium-dots="false">
+                    <div class="single-client-item">
+                        <p>Dorem ipsum dolor sit amet, duis metus ligula amet in purus vitae donec vestibulum enimtincidunt massa convallis ipsum pede augue nunc distinctio.</p>
+                        <h3>Martain Brain</h3>
+                        <span class="designation">CEO</span>
+                    </div>
+                    <div class="single-client-item">
+                        <p>Dorem ipsum dolor sit amet, duis metus ligula amet in purus vitae donec vestibulum enimtincidunt massa convallis ipsum pede augue nunc distinctio.</p>
+                        <h3>Martain Brain</h3>
+                        <span class="designation">CEO</span>
+                    </div>
+                    <div class="single-client-item">
+                        <p>Dorem ipsum dolor sit amet, duis metus ligula amet in purus vitae donec vestibulum enimtincidunt massa convallis ipsum pede augue nunc distinctio.</p>
+                        <h3>Martain Brain</h3>
+                        <span class="designation">CEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Happy clients End Here -->
+        <!-- Latest blog Start Here -->
+        <div class="latest-blog-area padding-two-top-bottom">
+            <div class="container menu-list-wrapper">
+                <div class="row menu-list">
+                    <div class="title-section">
+                        <h2>Latest Blogs</h2>
+                        <p>Simply dummy text of the printing and typesetting industry arore</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item">
+                        <div class="single-blog-item">
+                            <div class="blog-image">
+                                <a href="#"><img src="assets/img/blog/blog1.jpg" alt="blog"></a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="date">20
+                                    <br><span>Oct</span></div>
+                                <h3><a href="#">World market stosimply dummy text of the printingtype setting industryc for business policy.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item">
+                        <div class="single-blog-item">
+                            <div class="blog-image">
+                                <a href="#"><img src="assets/img/blog/blog2.jpg" alt="blog"></a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="date">20
+                                    <br><span>Oct</span></div>
+                                <h3><a href="#">World market stosimply dummy text of the printingtype setting industryc for business policy.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item hidden">
+                        <div class="single-blog-item">
+                            <div class="blog-image">
+                                <a href="#"><img src="assets/img/blog/blog3.jpg" alt="blog"></a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="date">20
+                                    <br><span>Oct</span></div>
+                                <h3><a href="#">World market stosimply dummy text of the printingtype setting industryc for business policy.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item hidden">
+                        <div class="single-blog-item">
+                            <div class="blog-image">
+                                <a href="#"><img src="assets/img/blog/blog4.jpg" alt="blog"></a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="date">20
+                                    <br><span>Oct</span></div>
+                                <h3><a href="#">World market stosimply dummy text of the printingtype setting industryc for business policy.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="loadmore viewall">
+                            <a class="ghost-btn" href="#">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest blog End Here -->
+        <!-- Ready to promote Start Here -->
+        <div class="ready-promote-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="content">
+                            <h3>Ready To Promote Your website Online?</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="button-area">
+                            <a class="default-button-btn" href="#">Premium Features</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ready to promote End Here -->
+
+        @endsection

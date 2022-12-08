@@ -36,3 +36,8 @@ Route::get('team', 'pages@team');
 Route::get('faq', 'pages@faq');
 Route::get('error', 'pages@error');
 Route::post('contactForm', 'pages@contactForm');
+Route::get('shop', 'pages@shop');
+Route::get('single-service', 'pages@single_service');
+Route::get('services', 'pages@service');
+Route::get('case-studies', 'pages@case_studies');
+Route::get('single-studies', 'pages@single_studies');

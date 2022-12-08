@@ -1,410 +1,504 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-<!-- Mirrored from angfuzsoft.com/html/dalky/demo/index by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Dec 2022 02:18:27 GMT -->
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from radiustheme.com/demo/html/seoengine/seoengine/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Dec 2022 14:37:16 GMT -->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dalky - Digital Agency HTML Template - Home One</title>
-    <meta name="author" content="Angfuzsoft">
-    <meta name="description" content="Dalky - Digital Agency HTML Template">
-    <meta name="keywords" content="Dalky - Digital Agency HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicons/apple-icon-60x60.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicons/apple-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicons/apple-icon-76x76.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicons/apple-icon-114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicons/apple-icon-120x120.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicons/apple-icon-144x144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicons/apple-icon-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-icon-180x180.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192"
-        href="{{ asset('assets/img/favicons/android-icon-192x192.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicons/favicon-96x96.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
-    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;family=Radio+Canada:wght@300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/css/app.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <title>SEO Engine | Home One</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Main Menu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font-awesome CSS-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Font-flat CSS-->
+    <link rel="stylesheet" href="assets/fonts/flaticon.css">
+    <!-- Owl Caousel CSS -->
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/OwlCarousel/owl.theme.default.min.css">
+    <!-- nivo slider CSS -->
+    <link rel="stylesheet" href="assets/vendor/slider/css/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="assets/vendor/slider/css/preview.css" type="text/css" media="screen" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+@section('header')
 
-<body class="home1">
-    <div class="preloader">
-        {{-- <button class="as-btn style3 preloaderCls">Cancel Preloader</button> --}}
-        <div class="preloader-inner"><span class="loader"></span></div>
-    </div>
-    <div class="sidemenu-wrapper d-none d-lg-block">
-        <div class="sidemenu-content bg-title"><button class="closeButton sideMenuCls"><i
-                    class="far fa-times"></i></button>
-            <div class="widget footer-widget">
-                <div class="as-widget-about">
-                    <div class="about-logo"><a href="/"><img src="assets/img/logo-white.svg" alt="Dalky"></a>
-                    </div>
-                    <p class="about-text">Quickly supply alternative strategic theme areas vis-a-vis B2C mindshare.
-                        Objectively repurpose stand-alone synergy via user-centric architectures.</p>
-                    <div class="as-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a
-                            href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                            href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                            href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
-                </div>
-            </div>
-            <div class="widget footer-widget">
-                <h3 class="widget_title">Recent Posts</h3>
-                <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img"><a href="blog-details"><img src="assets/img/blog/recent-post-2-1.jpg"
-                                    alt="Blog Image"></a></div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details">App Promotes
-                                    Sales of Markets it.</a></h4>
-                            <div class="recent-post-meta"><a href="blog"><i class="fal fa-calendar-days"></i>21
-                                    June, 2022</a></div>
-                        </div>
-                    </div>
-                    <div class="recent-post">
-                        <div class="media-img"><a href="blog-details"><img src="assets/img/blog/recent-post-2-2.jpg"
-                                    alt="Blog Image"></a></div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details">Best Define World
-                                    IT Digital Solution</a></h4>
-                            <div class="recent-post-meta"><a href="blog"><i class="fal fa-calendar-days"></i>22
-                                    June, 2022</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="widget newsletter-widget footer-widget">
-                <h3 class="widget_title">Newsletter</h3>
-                <p class="footer-text">Completely morph distributed web services for interactive sources.</p>
-                <form class="newsletter-form"><input class="form-control" type="email" placeholder="Enter Email"
-                        required=""> <button type="submit" class="as-btn">Subscribe</button></form>
-                <div class="social-box mt-35">
-                    <h6 class="social-title">Follow Us:</h6>
-                    <div class="icon-group"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                            href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                            href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a> <a
-                            href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block"><button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#"><input type="text" placeholder="What are you looking for?"> <button
-                type="submit"><i class="fal fa-search"></i></button></form>
-    </div>
-    <div class="as-menu-wrapper">
-        <div class="as-menu-area text-center"><button class="as-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="/"><img src="assets/img/logo2.png" alt="Dalky"></a></div>
-            <div class="as-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children"><a href="/">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="/">Web Agency</a></li>
-                            <li><a href="index-3">Startup Agency</a></li>
-                            <li><a href="index-4">Marketing Agency</a></li>
-                            <li><a href="index-5">Digital Agency</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about">About Us</a></li>
-                    <li class="menu-item-has-children"><a href="#">Services</a>
-                        <ul class="sub-menu">
-                            <li><a href="service">Services</a></li>
-                            <li><a href="service-details">Services Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="team">Team</a></li>
-                            <li><a href="team-details">Team Details</a></li>
-                            <li><a href="project">Project</a></li>
-                            <li><a href="project-details">Project Details</a></li>
-                            <li><a href="faq">Faq Page</a></li>
-                            <li><a href="pricing">Pricing</a></li>
-                            <li><a href="error">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog-grid">Blog Grid</a></li>
-                            <li><a href="blog">Blog Standard</a></li>
-                            <li><a href="blog-details">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    @section('header')
-
-        <header class="as-header header-layout4">
-            <div class="header-top">
-                <div class="container">
-                    <div class="row justify-content-center justify-content-lg-between align-items-center">
-                        <div class="col-auto d-none d-lg-block">
-                            <p class="header-notice">Welcome to Dalky Digital & Creative Agency</p>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-social"><span class="social-title">Follow Us : </span><a
-                                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a
-                                    href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a
-                                    href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                                    href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a
-                                    href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-top">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo"><a href="/"><img src="assets/img/logo2.png"
-                                        alt="Dalky"></a></div>
-                        </div>
-                        <div class="col-auto d-none d-lg-inline-block">
-                            <div class="header-info-wrap">
-                                <div class="header-info">
-                                    <div class="header-info_icon icon-btn"><i class="fa-solid fa-phone"></i></div>
-                                    <div class="media-body"><span class="header-info_text">Call Anytime</span> <a
-                                            class="header-info_link" href="tel:+18183683320">(+181)-8368-3320</a></div>
+    <body>
+        <!--[if lt IE 8]>
+                                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                            <![endif]-->
+        <!-- Add your site or application content here -->
+        <div class="wraper">
+            <header>
+                <div class="header-one">
+                    <div class="header-top-area" id="sticker">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                    <div class="logo-area">
+                                        <a href="index"><img class="img-responsive" src="assets/img/logo.png"
+                                                alt="logo"></a>
+                                    </div>
                                 </div>
-                                <div class="header-info">
-                                    <div class="header-info_icon icon-btn"><i class="fa-solid fa-envelope"></i></div>
-                                    <div class="media-body"><span class="header-info_text">Send Email</span> <a
-                                            class="header-info_link" href="mailto:info@dalky.com">info@dalky.com</a></div>
+                                <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                                    <div class="main-menu">
+                                        <nav>
+                                            <ul>
+                                                <li class="active"><a href="#">Home</a>
+                                                    <ul class="mega-menu-dropdown2">
+                                                        <li class="single-mega-menu">
+                                                            <a href="index">Home 1</a>
+                                                            <a href="index2">Home 2</a>
+                                                            <a href="index3">Home 3</a>
+                                                            <a href="index4">Home 4</a>
+                                                            <a href="index5">Home 5</a>
+                                                            <a href="index6">Home 6</a>
+                                                        </li>
+                                                        <li class="single-mega-menu">
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index"
+                                                                target="_blank">Home 1 (Onepage)</a>
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index2"
+                                                                target="_blank">Home 2 (Onepage)</a>
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index3"
+                                                                target="_blank">Home 3 (Onepage)</a>
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index4"
+                                                                target="_blank">Home 4 (Onepage)</a>
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index5"
+                                                                target="_blank">Home 5 (Onepage)</a>
+                                                            <a href="https://radiustheme.com/demo/html/seoengine/one-page/index6"
+                                                                target="_blank">Home 6 (Onepage)</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Pages</a>
+                                                    <ul class="mega-menu-dropdown">
+                                                        <li class="single-mega-menu">
+                                                            <a href="index">Home 1</a>
+                                                            <a href="index2">Home 2</a>
+                                                            <a href="index3">Home 3</a>
+                                                            <a href="index4">Home 4</a>
+                                                        </li>
+                                                        <li class="single-mega-menu">
+                                                            <a href="index5">Home 5</a>
+                                                            <a href="index6">Home 6</a>
+                                                            <a href="about">About Us</a>
+                                                            <a href="services">Our Services</a>
+                                                        </li>
+                                                        <li class="single-mega-menu">
+                                                            <a href="single-service">Single Service</a>
+                                                            <a href="case-studies">Our Case Studies</a>
+                                                            <a href="single-studies">Single Case Studies</a>
+                                                            <a href="blog-default">Blog Default Layout</a>
+                                                        </li>
+                                                        <li class="single-mega-menu">
+                                                            <a href="blog-standard">Blog Standard Layout</a>
+                                                            <a href="single-blog">Blog Single Layout</a>
+                                                            <a href="portfolio">Portfolio</a>
+                                                            <a href="404">404 Error</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Case Studies</a>
+                                                    <ul class="menu-dropdown">
+                                                        <li><a href="case-studies">Case Studies</a></li>
+                                                        <li><a href="single-studies">Single Case Studies</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Blog</a>
+                                                    <ul class="menu-dropdown">
+                                                        <li><a href="blog-default">Blog Default Layout</a></li>
+                                                        <li><a href="blog-standard">Blog Standard Layout</a>
+                                                        </li>
+                                                        <li><a href="single-blog">Single Blog Layout</a></li>
+                                                        <li class="has-child-menu"><a href="#">Demo Menu</a>
+                                                            <ul class="thired-level">
+                                                                <li><a href="#">Demo Menu 1</a></li>
+                                                                <li><a href="#">Demo Menu 2</a></li>
+                                                                <li><a href="#">Demo Menu 3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Shop</a>
+                                                    <ul class="menu-dropdown">
+                                                        <li><a href="shop">Category Grid</a></li>
+                                                        <li><a href="shop-list">Category List</a></li>
+                                                        <li><a href="single-product">Single Product</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact">Contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
-                                <div class="header-info">
-                                    <div class="header-info_icon icon-btn"><i class="fa-solid fa-clock"></i></div>
-                                    <div class="media-body"><span class="header-info_text">Working Time</span>
-                                        <p class="header-info_link">Mon - Fri: 09AM - 18PM</p>
+                                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                                    <div class="header-top-right">
+                                        <ul>
+                                            <li>
+                                                <div class="header-top-search search-box">
+                                                    <form>
+                                                        <input class="search-text" type="text"
+                                                            placeholder="Search Here...">
+                                                        <a class="search-button" href="assets/#">
+                                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="cart-area floatright">
+                                                    <i class="flaticon-commerce"></i><span>2</span>
+                                                </a>
+                                                <ul class="chart-scroll">
+                                                    <li>
+                                                        <div class="cart-single-product">
+                                                            <div class="media">
+                                                                <div class="pull-left cart-product-img">
+                                                                    <a href="#">
+                                                                        <img class="media-object"
+                                                                            src="assets/img/product/product3.jpg"
+                                                                            alt="product">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="media-body cart-content">
+                                                                    <div class="media-heading"><a href="#">Product
+                                                                            Title Here</a></div>
+                                                                    <a href="#" class="trash"><i
+                                                                            class="fa fa-trash-o"></i></a>
+                                                                    <p>Quantity : 1</p>
+                                                                    <div class="cart-product-price">
+                                                                        <span>$49</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="cart-single-product">
+                                                            <div class="media">
+                                                                <div class="pull-left cart-product-img">
+                                                                    <a href="#">
+                                                                        <img class="media-object"
+                                                                            src="assets/img/product/product2.jpg"
+                                                                            alt="product">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="media-body cart-content">
+                                                                    <div class="media-heading"><a href="#">Product
+                                                                            Title Here</a></div>
+                                                                    <a href="#" class="trash"><i
+                                                                            class="fa fa-trash-o"></i></a>
+                                                                    <p>Quantity : 1</p>
+                                                                    <div class="cart-product-price">
+                                                                        <span>$99</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="https://www.radiustheme.com/demo/html/seoengine/seoengine/checkout"
+                                                            class="checkout-button">Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="additional-menu-area" id="additional-menu-area">
+                                                    <div id="mySidenav" class="sidenav">
+                                                        <a href="#" class="closebtn">×</a>
+                                                        <div class="sidenav-search">
+                                                            <div class="input-group stylish-input-group">
+                                                                <input type="text" placeholder="Search Here . . ."
+                                                                    class="form-control">
+                                                                <span class="input-group-addon">
+                                                                    <button type="submit">
+                                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <ul class="sidenav-nav">
+                                                            <li><a href="#">Home</a>
+                                                                <ul>
+                                                                    <li><a href="index">Home 1</a></li>
+                                                                    <li><a href="index2">Home 2</a></li>
+                                                                    <li><a href="index3">Home 3</a></li>
+                                                                    <li><a href="index4">Home 4</a></li>
+                                                                    <li><a href="index5">Home 5</a></li>
+                                                                    <li><a href="index6">Home 6</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#">Pages</a>
+                                                                <ul>
+                                                                    <li><a href="about">About Us</a></li>
+                                                                    <li><a href="services">Our Services</a>
+                                                                    </li>
+                                                                    <li><a href="single-service">Single
+                                                                            Service</a>
+                                                                    </li>
+                                                                    <li><a href="shop">Category Grid</a></li>
+                                                                    <li><a href="shop-list">Category List</a>
+                                                                    </li>
+                                                                    <li><a href="single-product">Single
+                                                                            Product</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="case-studies">Case Studies</a></li>
+                                                            <li><a href="single-studies">Single Case
+                                                                    Studies</a></li>
+                                                            <li><a href="blog-default">Blog Default Layout</a>
+                                                            </li>
+                                                            <li><a href="blog-standard">Blog Standard
+                                                                    Layout</a></li>
+                                                            <li><a href="single-blog">Single Blog Layout</a>
+                                                            </li>
+                                                            <li><a href="contact">Contact</a></li>
+                                                        </ul>
+                                                        <!-- times-->
+                                                    </div>
+                                                    <span class="side-menu-open side-menu-trigger"><i class="fa fa-bars"
+                                                            aria-hidden="true"></i></span>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto"><a href="contact" class="as-btn gr-btn d-lg-inline-block d-none">Let’s
-                                Talk Us</a> <button type="button" class="as-menu-toggle d-inline-block d-lg-none"><i
-                                    class="far fa-bars"></i></button></div>
                     </div>
                 </div>
-                <div class="logo-bg"></div>
-            </div>
-            <div class="sticky-wrapper">
-                <div class="sticky-active">
+                <!-- mobile-menu-area start -->
+                <div class="mobile-menu-area">
                     <div class="container">
-                        <div class="menu-area">
-                            <div class="row align-items-center justify-content-between">
-                                <div class="col-auto">
-                                    <nav class="main-menu d-none d-lg-inline-block">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mobile-menu">
+                                    <nav id="dropdown">
                                         <ul>
-                                            <li class="menu-item-has-children"><a href="/">Home</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="/">Web Agency</a></li>
-                                                    <li><a href="index-3">Startup Agency</a></li>
-                                                    <li><a href="index-4">Marketing Agency</a></li>
-                                                    <li><a href="index-5">Digital Agency</a></li>
+                                            <li><a href="index">Home 1</a></li>
+                                            <li><a href="index2">Home 2</a></li>
+                                            <li><a href="index3">Home 3</a></li>
+                                            <li><a href="index4">Home 4</a></li>
+                                            <li><a href="index5">Home 5</a></li>
+                                            <li><a href="index6">Home 6</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index"
+                                                    target="_blank">Home 1 (Onepage)</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index2"
+                                                    target="_blank">Home 2 (Onepage)</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index3"
+                                                    target="_blank">Home 3 (Onepage)</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index4"
+                                                    target="_blank">Home 4 (Onepage)</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index5"
+                                                    target="_blank">Home 5 (Onepage)</a></li>
+                                            <li><a href="https://radiustheme.com/demo/html/seoengine/one-page/index6"
+                                                    target="_blank">Home 6 (Onepage)</a></li>
+                                            <li><a href="#">Pages</a>
+                                                <ul class="mega-menu-area">
+                                                    <li><a href="about">About Us</a></li>
+                                                    <li><a href="services">Our Services</a></li>
+                                                    <li><a href="single-service">Single Service</a></li>
+                                                    <li><a href="case-studies">Our Case Studies</a></li>
+                                                    <li><a href="single-studies">Single Case Studies</a></li>
+                                                    <li><a href="blog-default">Blog Default Layout</a></li>
+                                                    <li><a href="blog-standard">Blog Standard Layout</a></li>
+                                                    <li><a href="single-blog">Single Blog Layout</a></li>
+                                                    <li><a href="portfolio">Portfolio Page</a></li>
+                                                    <li><a href="404">404 Page</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about">About Us</a></li>
-                                            <li class="menu-item-has-children"><a href="#">Services</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="service">Services</a></li>
-                                                    <li><a href="service-details">Services Details</a></li>
+                                            <li><a href="case-studies">Case Studies</a></li>
+                                            <li><a href="blog-default">Blog</a></li>
+                                            <li><a href="#">Shop</a>
+                                                <ul class="mega-menu-area">
+                                                    <li><a href="shop">Category Grid</a></li>
+                                                    <li><a href="shop-list">Category List</a></li>
+                                                    <li><a href="single-product">Single Product</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#">Pages</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="team">Team</a></li>
-                                                    <li><a href="team-details">Team Details</a></li>
-                                                    <li><a href="project">Project</a></li>
-                                                    <li><a href="project-details">Project Details</a></li>
-                                                    <li><a href="faq">Faq Page</a></li>
-                                                    <li><a href="pricing">Pricing</a></li>
-                                                    <li><a href="error">Error Page</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="#">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog-grid">Blog Grid</a></li>
-                                                    <li><a href="blog">Blog Standard</a></li>
-                                                    <li><a href="blog-details">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact">Contact Us</a></li>
+                                            <li><a href="contact">Contact</a></li>
                                         </ul>
                                     </nav>
-                                </div>
-                                <div class="col-auto d-none d-lg-block">
-                                    <div class="header-button"><button type="button"
-                                            class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button> <a
-                                            href="https://www.google.com/maps" class="icon-btn"><i
-                                                class="far fa-location-dot"></i> </a><a href="#"
-                                            class="icon-btn sideMenuToggler"><i class="far fa-bars"></i></a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-    @show
-    <main>
-        @php
-            $email = env('EMAIL');
-            $company_name = ENV('APP_NAME');
-            
-        @endphp
-        @section('main')
-
+                <!-- mobile-menu-area end -->
+            </header>
         @show
 
-    </main>
-    @section('footer')
-        <footer class="footer-wrapper footer-layout2" data-bg-src="assets/img/bg/footer_bg_4.jpg">
-            <div class="footer-top">
+        @section('main')
+        @show
+
+        @section('footer')
+            <!-- Footer section Start Here -->
+            <div class="footer-section-area padding-top-bottom">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3">
-                            <div class="footer-logo2"><a href="/"><img src="assets/img/logo2.png"
-                                        alt="Dalky"></a></div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="title">
+                                <h3>Information</h3>
+                            </div>
+                            <div class="information">
+                                <ul>
+                                    <li><a href="#">Plans & Pricing</a></li>
+                                    <li><a href="#">Free SEO Tools</a></li>
+                                    <li><a href="#">Support and FAQ</a></li>
+                                    <li><a href="#">Blog & Articles</a></li>
+                                    <li><a href="#">Company & Contact Info</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-xl-9">
-                            <div class="newsletter-wrap">
-                                <div class="newsletter-content">
-                                    <h3 class="newsletter-title">News Subscription</h3>
-                                    <p class="newsletter-text">Get Latest Deals from Waker’s Inbox & Subscribe Now</p>
-                                </div>
-                                <form class="newsletter-form style3">
-                                    <div class="form-group"><input class="form-control style2" type="email"
-                                            placeholder="Email Address" required=""> <i class="fal fa-envelope"></i>
-                                    </div><button type="submit" class="as-btn gr-btn">Subscribe</button>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="title">
+                                <h3>Our Services</h3>
+                            </div>
+                            <div class="our-service">
+                                <ul>
+                                    <li><a href="#">SEO Services</a></li>
+                                    <li><a href="#">Virtual Marketing</a></li>
+                                    <li><a href="#">Pay-per-click</a></li>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#">Social Media</a></li>
+                                    <li><a href="#">Keyword Analytics</a></li>
+                                    <li><a href="#">Web Analyticsment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="title">
+                                <h3>Popular Posts</h3>
+                            </div>
+                            <div class="popular-post">
+                                <ul>
+                                    <li>
+                                        <span class="post-date">26 September, 2016</span>
+                                        <a href="#">Optimizing your Website for Mobile Searchwhen an unkn.</a>
+                                    </li>
+                                    <li>
+                                        <span class="post-date">25 September, 2016</span>
+                                        <a href="#">Optimizing your Website for Mobile Searchwhen an unkn.</a>
+                                    </li>
+                                    <li>
+                                        <span class="post-date">24 September, 2016</span>
+                                        <a href="#">Optimizing your Website for Mobile Searchwhen an unkn.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="title">
+                                <h3>Get A Quote</h3>
+                            </div>
+                            <div class="get-quote">
+                                <form id="getQuoteForm" role="form">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input id="quote-name" name="name" placeholder="Name*"
+                                                class="form-control" type="text" data-error="Name field is required"
+                                                required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="quote-email" name="email" placeholder="E-mail*"
+                                                class="form-control" type="text" data-error="E-mail field is required"
+                                                required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="textarea form-control" rows="4" id="textarea" name="message" placeholder="Message*"
+                                                data-error="Message field is required" required></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group send-button">
+                                            <button type="submit" class="ghost-btn btn-send">Submit</button>
+                                        </div>
+                                        <div class="form-response"></div>
+                                    </fieldset>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="widget-area">
+            <!-- Footer section End Here -->
+            <!-- Copyright section Start Here -->
+            <div class="copy-right-area">
                 <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 col-xl-4">
-                            <div class="widget footer-widget">
-                                <h3 class="widget_title">About Company</h3>
-                                <div class="as-widget-about">
-                                    <p class="about-text">Professionally redefine transparent ROI through low-risk
-                                        high-yield gone.</p>
-                                    <p class="footer-info style2"><i class="fas fa-location-dot"></i> 18013 Northridge,
-                                        CA 91325, United States</p>
-                                    <p class="footer-info style2"><i class="fas fa-envelope"></i> <a
-                                            href="mailto:info.example@dalky.com"
-                                            class="info-box_link">info.example@dalky.com</a></p>
-                                    <p class="footer-info style2"><i class="fas fa-phone"></i> <a href="tel:+10987654321"
-                                            class="info-box_link">+(1) 098 765 4321</a></p>
-                                </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                            <div class="copy-right">
+                                <p>© Copyrights Maatseo 2016. All rights reserved. Designed by <a target="_blank"
+                                        href="https://www.radiustheme.com/" rel="nofollow">RadiusTheme</a></p>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Quick Link</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="about">About Us</a></li>
-                                        <li><a href="service">Services</a></li>
-                                        <li><a href="project">Projects</a></li>
-                                        <li><a href="team">Team</a></li>
-                                        <li><a href="blog">Blog Post</a></li>
-                                        <li><a href="contact">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget widget_nav_menu footer-widget">
-                                <h3 class="widget_title">Services</h3>
-                                <div class="menu-all-pages-container">
-                                    <ul class="menu">
-                                        <li><a href="service-details">Web Development</a></li>
-                                        <li><a href="service-details">Business Development</a></li>
-                                        <li><a href="service-details">Product Management</a></li>
-                                        <li><a href="service-details">UI/UX Design</a></li>
-                                        <li><a href="service-details">Digital Marketing</a></li>
-                                        <li><a href="service-details">Branding Designs</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto">
-                            <div class="widget footer-widget">
-                                <h3 class="widget_title">Recent Posts</h3>
-                                <div class="recent-post-wrap">
-                                    <div class="recent-post">
-                                        <div class="media-img"><a href="blog-details"><img
-                                                    src="assets/img/blog/recent-post-2-1.jpg" alt="Blog Image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="post-title"><a class="text-inherit" href="blog-details">App
-                                                    Promotes Sales of Markets it.</a></h4>
-                                            <div class="recent-post-meta"><a href="blog"><i
-                                                        class="fal fa-calendar-days"></i>21 June, 2022</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="recent-post">
-                                        <div class="media-img"><a href="blog-details"><img
-                                                    src="assets/img/blog/recent-post-2-2.jpg" alt="Blog Image"></a>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4 class="post-title"><a class="text-inherit" href="blog-details">Best
-                                                    Define World IT Digital Solution</a>
-                                            </h4>
-                                            <div class="recent-post-meta"><a href="blog"><i
-                                                        class="fal fa-calendar-days"></i>22 June, 2022</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-wrap">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-lg-6">
-                            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2022 <a
-                                    href="https://www.mindyourads.com">Mind Your Ads</a>. All Rights Reserved.
-                            </p>
-                        </div>
-                        <div class="col-lg-6 text-end d-none d-lg-block">
-                            <div class="footer-links">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="social-media">
                                 <ul>
-                                    <li><a href="about">Privacy Policy</a></li>
-                                    <li><a href="about">Terms of Use</a></li>
-                                    <li><a href="about">Cookie Policy</a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-    @show
-    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-long-arrow-up"></i></a>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+            <!-- Copyright section End Here -->
+        </div>
+        <!-- Preloader Start Here -->
+        <div id="preloader"></div>
+        <!-- Preloader End Here -->
+        <!-- jquery-->
+        <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <!-- Plugins js -->
+        <script src="assets/js/plugins.js" type="text/javascript"></script>
+        <!-- Bootstrap js -->
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- Meanmenu Js -->
+        <script src="assets/js/jquery.meanmenu.min.js" type="text/javascript"></script>
+        <!-- Counter Js -->
+        <script src="assets/js/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="assets/js/waypoints.min.js" type="text/javascript"></script>
+        <!-- WOW JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Nivo slider js -->
+        <script src="assets/vendor/slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="assets/vendor/slider/home.js" type="text/javascript"></script>
+        <!-- Owl Cauosel JS -->
+        <script src="assets/vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
+        <!-- Validator js -->
+        <script src="assets/js/validator.min.js" type="text/javascript"></script>
+        <!-- Srollup js -->
+        <script src="assets/js/jquery.scrollUp.min.js" type="text/javascript"></script>
+        <!-- Custom Js -->
+        <script src="assets/js/main.js" type="text/javascript"></script>
+    </body>
 
-</html>
+
+    <!-- Mirrored from radiustheme.com/demo/html/seoengine/seoengine/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Dec 2022 14:38:08 GMT -->
+
+    </html>
+
+@show

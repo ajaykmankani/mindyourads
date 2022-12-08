@@ -1,86 +1,120 @@
 @extends('master')
 @section('main')
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+    <!-- Header banner Start Here -->
+    <div class="header-banner">
         <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Contact Us</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="index-2">Home</a></li>
-                    <li>Contact Us</li>
+            <div class="header-title">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="index.html">Home -</a></li>
+                    <li class="active">Contact</li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="space">
+    <!-- Header banner End Here -->
+    <!-- Contact page Start Here -->
+    <div class="contact-page-area padding-bottom">
+
         <div class="container">
-            <div class="row gy-40">
-                <div class="col-xl-5">
-                    <div class="contact-info-wrap">
-                        <h2 class="fs-40 border-title">Contact Info</h2>
-                        <div class="contact-info">
-                            <h4 class="contact-info_title">Telephone Number:</h4>
-                            <div class="contact-info_icon"><i class="fal fa-phone"></i></div>
-                            <div class="media-body"><span class="contact-info_text"><a href="tel:+65485965789">(+65)
-                                        - 48596 - 5789</a> <a href="tel:+65485965789">+65-48596-5789</a></span></div>
-                        </div>
-                        <div class="contact-info">
-                            <h4 class="contact-info_title">Mail Address:</h4>
-                            <div class="contact-info_icon"><i class="fal fa-envelope"></i></div>
-                            <div class="media-body"><span class="contact-info_text"><a href="ABC@123.COM">
-                                        ABC@123.COM</a> <a href="mailto:{{ env('EMAIL') }}">{{ env('EMAIL') }}</a></span>
-                            </div>
-                        </div>
-                        <div class="contact-info">
-                            <h4 class="contact-info_title">Office Address:</h4>
-                            <div class="contact-info_icon"><i class="fal fa-location-dot"></i></div>
-                            <div class="media-body"><span class="contact-info_text">Burnsville, MN 55337
-                                    Streat,<br>United States</span></div>
+            <div class="row">
+                <!-- Main body Start Here -->
+                <div class="body-content">
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                        <form class="contact-form" id='contact-form' role="form">
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend>Send Us A Message</legend>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <input id="form-name" name="name" placeholder="Name*" class="form-control"
+                                                type="text" data-error="Name field is required" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <input id="form-email" name="email" placeholder="E-mail*" class="form-control"
+                                                type="text" data-error="E-mail field is required" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <input id="form-subject" name="subject" placeholder="Subject*"
+                                                class="form-control" type="text" data-error="Subject field is required"
+                                                required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <!-- Text input-->
+                                        <div class="form-group">
+                                            <input id="form-phone" name="phone" placeholder="Phone*" class="form-control"
+                                                type="text" data-error="Phone field is required" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <!-- Textarea -->
+                                        <div class="form-group">
+                                            <textarea class="textarea form-control" rows="4" id="form-message" name="message" placeholder="Message*"
+                                                data-error="Message field is required" required></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <!-- Button -->
+                                        <div class="form-group button-group">
+                                            <button type="submit" class="btn-send submit-botton disabled">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='form-response'></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                        <div class="contact-address">
+                            <h3>Information</h3>
+                            <ul>
+                                <li><i class="fa fa-paper-plane" aria-hidden="true"></i>PO Box 16122 Collins Street West
+                                    Victoria 8007 Australia</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>+61 3 8376 6284</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@gymedge.com</li>
+                                <li><i class="fa fa-fax" aria-hidden="true"></i>Fax : (123) 4657890</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-7">
-                    <div class="contact-map"><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuzsoft!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd"
-                            allowfullscreen="" loading="lazy"></iframe></div>
+                <!-- Main body End Here -->
+            </div>
+        </div>
+    </div>
+    <!-- Contact page End Here -->
+    <!-- Ready to promote Start Here -->
+    <div class="ready-promote-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div class="content">
+                        <h3>Ready To Promote Your website Online?</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="button-area">
+                        <a class="default-button-btn" href="#">Premium Features</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <section class="space-bottom overflow-hidden">
-        <div class="container">
-            <div class="row gy-40 align-items-end">
-                <div class="col-xl-8">
-                    <h3 class="fs-40 mb-2 mt-n2">Drop Us a Line</h3>
-                    <p class="mb-4">Uniquely productize backend systems for ethical "outside the</p>
-                    <form action="contactForm" method="POST" class="quote-form ajax-contact">
-                        @csrf
-                        <div class="row">
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name"
-                                    id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
-                            <div class="form-group col-md-6"><input type="email" class="form-control" name="email"
-                                    id="email" placeholder="Email Address"> <i class="fal fa-envelope"></i></div>
-                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="number"
-                                    id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
-                            <div class="form-group col-md-6"><select name="subject" id="subject" class="form-select">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select
-                                        Service</option>
-                                    <option value="Web Development">Web Development</option>
-                                    <option value="Brand Marketing">Brand Marketing</option>
-                                    <option value="UI/UX Designing">UI/UX Designing</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                </select> <i class="fal fa-chevron-down"></i></div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn col-12"><button class="as-btn">Send Message</button></div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
-                </div>
-                <div class="col-xl-4">
-                    <div class="contact-img"><img src="assets/img/normal/contact_1.png" alt="vector"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Ready to promote End Here -->
 @endsection

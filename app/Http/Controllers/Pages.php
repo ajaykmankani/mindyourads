@@ -22,9 +22,9 @@ class pages extends Controller
     {
         return view('about');
     }
-    function service()
+    function single_service()
     {
-        return view('service');
+        return view('single-service');
     }
     function service_details()
     {
@@ -53,5 +53,25 @@ class pages extends Controller
     function contactForm(Request $res)
     {
         var_dump($res->input());
+    }
+    function shop()
+    {
+        return view('shop');
+    }
+    function service()
+    {
+        return view('services');
+    }
+    function portfolio()
+    {
+        return view('portfolio');
+    }
+    function case_studies()
+    {
+        return view('case-studies');
+    }
+    function single_studies()
+    {
+        return view('single-studies');
     }
 }
