@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
 
     "use strict";
 
@@ -15,7 +15,7 @@
     /*-------------------------------------
      Jquery Fixed Header Menu
      -----------------------------------*/
-    $(window).scroll(function() {
+    $(window).scroll(function () {
 
         var s = $("#sticker");
         var w = $(".wrapper");
@@ -39,7 +39,7 @@
     /*-------------------------------------
      jQuery Search Box customization
      -------------------------------------*/
-    $(".header-top-search.search-box").on('click', '.search-button', function(event) {
+    $(".header-top-search.search-box").on('click', '.search-button', function (event) {
 
         event.preventDefault();
         var v = $(this).prev('.search-text');
@@ -68,7 +68,7 @@
     /*-------------------------------------
      OwlCarousel
      -------------------------------------*/
-    $('.rc-carousel').each(function() {
+    $('.rc-carousel').each(function () {
 
         var carousel = $(this),
             loop = carousel.data('loop'),
@@ -129,7 +129,7 @@
     /*-------------------------------------
      On click loadmore functionality
      -------------------------------------*/
-    $('.loadmore').on('click', 'a', function(e) {
+    $('.loadmore').on('click', 'a', function (e) {
 
         e.preventDefault();
         var _this = $(this),
@@ -138,7 +138,7 @@
             _set = _target.find('.menu-item.hidden').slice(0, 2); // Herre 2 is the limit
         if (_set.length) {
             _set.animate({ opacity: 0 });
-            _set.promise().done(function() {
+            _set.promise().done(function () {
                 _set.removeClass('hidden');
                 _set.show().animate({ opacity: 1 }, 1000);
             });
@@ -163,16 +163,16 @@
      Accordion
      -------------------------------------*/
     var accordion = $('#accordion');
-    accordion.children('.panel').children('.panel-collapse').each(function() {
+    accordion.children('.panel').children('.panel-collapse').each(function () {
         if ($(this).hasClass('in')) {
             $(this).parent('.panel').children('.panel-heading').addClass('active');
         }
     });
     accordion
-        .on('show.bs.collapse', function(e) {
+        .on('show.bs.collapse', function (e) {
             $(e.target).prev('.panel-heading').addClass('active');
         })
-        .on('hide.bs.collapse', function(e) {
+        .on('hide.bs.collapse', function (e) {
             $(e.target).prev('.panel-heading').removeClass('active');
         });
 
@@ -181,11 +181,11 @@
      Product Count added spinner
      ------------------------------ */
     var spiner = $('.spinner');
-    spiner.find('.btn:first-of-type').on('click', function() {
+    spiner.find('.btn:first-of-type').on('click', function () {
         var target = $(this).parents('.spinner').find('input');
         target.val(parseInt(target.val(), 10) + 1);
     });
-    spiner.find('.btn:last-of-type').on('click', function() {
+    spiner.find('.btn:last-of-type').on('click', function () {
         var target = $(this).parents('.spinner').find('input');
         target.val(parseInt(target.val(), 10) - 1);
     });
@@ -195,7 +195,7 @@
     -------------------------------------*/
     if ($('#googleMap').length) {
 
-        var initialize = function() {
+        var initialize = function () {
             var mapOptions = {
                 zoom: 15,
                 scrollwheel: false,
@@ -225,7 +225,7 @@
      ------------------------------ */
     var contactForm = $('#contact-form');
     if (contactForm.length) {
-        contactForm.validator().on('submit', function(e) {
+        contactForm.validator().on('submit', function (e) {
 
             var $this = $(this),
                 $target = contactForm.find(".form-response");
@@ -238,10 +238,10 @@
                     url: 'php/form-process.php',
                     type: 'POST',
                     data: contactForm.serialize(),
-                    beforeSend: function() {
+                    beforeSend: function () {
                         $target.html("<div class='alert alert-info'><p>Loading ...</p></div>");
                     },
-                    success: function(text) {
+                    success: function (text) {
                         if (text == "success") {
                             $this[0].reset();
                             $target.html("<div class='alert alert-success'><p>Message has been sent.</p></div>");
@@ -263,7 +263,7 @@
     var checkOutForm = $('#checkoutForm');
     if (checkOutForm.length) {
 
-        checkOutForm.validator().on('submit', function(e) {
+        checkOutForm.validator().on('submit', function (e) {
             var $this = $(this),
                 $target = checkOutForm.find(".form-response");
             if (e.isDefaultPrevented()) {
@@ -275,10 +275,10 @@
                     url: 'php/checkout-process.php',
                     type: 'POST',
                     data: checkOutForm.serialize(),
-                    beforeSend: function() {
+                    beforeSend: function () {
                         $target.html("<div class='alert alert-info'><p>Loading ...</p></div>");
                     },
-                    success: function(text) {
+                    success: function (text) {
                         if (text == "success") {
                             $this[0].reset();
                             $target.html("<div class='alert alert-success'><p>Message has been sent.</p></div>");
@@ -300,7 +300,7 @@
     var getQuoteForm = $('#getQuoteForm');
     if (getQuoteForm.length) {
 
-        getQuoteForm.validator().on('submit', function(e) {
+        getQuoteForm.validator().on('submit', function (e) {
             var $this = $(this),
                 $target = getQuoteForm.find(".form-response");
             if (e.isDefaultPrevented()) {
@@ -312,10 +312,10 @@
                     url: 'php/get-quote.php',
                     type: 'POST',
                     data: getQuoteForm.serialize(),
-                    beforeSend: function() {
+                    beforeSend: function () {
                         $target.html("<div class='alert alert-info'><p>Loading ...</p></div>");
                     },
-                    success: function(text) {
+                    success: function (text) {
                         if (text == "success") {
                             $this[0].reset();
                             $target.html("<div class='alert alert-success'><p>Message has been sent.</p></div>");
@@ -334,7 +334,7 @@
     /*-------------------------------------
      Offcanvas toggle Menu activation code
      -------------------------------------*/
-    $('#additional-menu-area').on('click', 'span.side-menu-trigger', function() {
+    $('#additional-menu-area').on('click', 'span.side-menu-trigger', function () {
 
         var $this = $(this),
             wraper = $(this).parents('body').find('>.wraper');
@@ -350,7 +350,7 @@
 
     });
 
-    $('#mySidenav').on('click', '.closebtn', function(e) {
+    $('#mySidenav').on('click', '.closebtn', function (e) {
         e.preventDefault();
         var $this = $(this),
             wraper = $(this).parents('body').find('>.wraper');
@@ -363,7 +363,7 @@
     /*-------------------------------------
      Window onLoad and onResize event trigger
      -------------------------------------*/
-    $(window).on('load resize', function() {
+    $(window).on('load resize', function () {
 
         //Define the maximum height for mobile menu
         var wHeight = $(window).height();
@@ -376,10 +376,10 @@
     /*-------------------------------------
      Window load function
      -------------------------------------*/
-    $(window).on('load', function() {
+    $(window).on('load', function () {
 
         // Page Preloader
-        $('#preloader').fadeOut('slow', function() {
+        $('#preloader').fadeOut('slow', function () {
             $(this).remove();
         });
 
@@ -395,7 +395,7 @@
                 }
             });
 
-            $container.find('.isotop-classes-tab').on('click', 'a', function() {
+            $container.find('.isotop-classes-tab').on('click', 'a', function () {
                 var $this = $(this);
                 $this.parent('.isotop-classes-tab').find('a').removeClass('current');
                 $this.addClass('current');
